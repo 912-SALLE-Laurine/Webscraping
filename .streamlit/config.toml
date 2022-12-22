@@ -1,0 +1,11 @@
+[theme]
+
+primaryColor = '#faedcd'
+
+backgroundColor = '#ffffff'
+
+secondaryBackgroundColor = '#ccd5ae'
+
+textColor = '#bc6c25'
+
+font = "Helvetica"
