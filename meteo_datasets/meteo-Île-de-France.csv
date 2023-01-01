@@ -1,0 +1,976 @@
+,day,tempMax,tempMin,windSpeed,precipitation,humidity,cloudCover,dayDuration,temp_13h,meteo_13h
+1,2020/01/01,6°,3°,5km/h,1mm,86%,16%,8:20:0,5°,Soleil et partiellement nuageux
+2,2020/01/02,9°,6°,10km/h,0mm,97%,79%,8:21:0,8°,Brouillard
+3,2020/01/03,11°,9°,19km/h,1mm,90%,91%,8:22:0,10°,Soleil et partiellement nuageux
+4,2020/01/04,8°,6°,10km/h,0mm,79%,47%,8:23:0,7°,Soleil et partiellement nuageux
+5,2020/01/05,9°,7°,3km/h,1mm,76%,52%,8:24:0,8°,Nuageux
+6,2020/01/06,8°,4°,12km/h,0mm,88%,10%,8:26:0,5°,Soleil et partiellement nuageux
+7,2020/01/07,10°,6°,8km/h,0mm,95%,43%,8:28:0,8°,Soleil et partiellement nuageux
+8,2020/01/08,12°,11°,12km/h,1mm,97%,100%,8:29:0,11°,Couvert
+9,2020/01/09,13°,11°,22km/h,5mm,90%,100%,8:31:0,12°,Bruine légère
+10,2020/01/10,9°,8°,23km/h,4mm,75%,83%,8:32:0,8°,Pluie légère et soleil
+11,2020/01/11,8°,5°,10km/h,0mm,87%,42%,8:35:0,6°,Soleil et partiellement nuageux
+12,2020/01/12,8°,5°,18km/h,0mm,87%,62%,8:36:0,7°,Couvert
+13,2020/01/13,9°,7°,21km/h,2mm,93%,86%,8:38:0,7°,Pluie légère et soleil
+14,2020/01/14,10°,5°,32km/h,1mm,74%,96%,8:40:0,9°,Pluie légère et soleil
+15,2020/01/15,11°,9°,26km/h,1mm,68%,70%,8:42:0,9°,Nuageux
+16,2020/01/16,11°,6°,18km/h,0mm,94%,33%,8:45:0,8°,Soleil et partiellement nuageux
+17,2020/01/17,11°,10°,21km/h,4mm,83%,79%,8:46:0,10°,Bruine légère
+18,2020/01/18,7°,5°,15km/h,0mm,82%,27%,8:48:0,5°,Soleil et partiellement nuageux
+19,2020/01/19,7°,3°,22km/h,1mm,79%,41%,8:51:0,5°,Soleil et partiellement nuageux
+20,2020/01/20,6°,3°,17km/h,0mm,83%,8%,8:53:0,5°,Soleil et partiellement nuageux
+21,2020/01/21,7°,3°,9km/h,0mm,81%,2%,8:56:0,4°,Soleil et partiellement nuageux
+22,2020/01/22,7°,1°,11km/h,0mm,70%,21%,8:59:0,4°,Soleil et partiellement nuageux
+23,2020/01/23,9°,3°,13km/h,0mm,87%,10%,9:1:0,4°,Soleil et partiellement nuageux
+24,2020/01/24,8°,2°,4km/h,0mm,75%,31%,9:4:0,6°,Soleil et partiellement nuageux
+25,2020/01/25,8°,4°,6km/h,0mm,95%,32%,9:6:0,6°,Soleil et partiellement nuageux
+26,2020/01/26,9°,4°,12km/h,1mm,95%,72%,9:9:0,6°,Brouillard
+27,2020/01/27,10°,9°,24km/h,9mm,84%,100%,9:11:0,9°,Faibles averses de pluie
+28,2020/01/28,8°,5°,31km/h,6mm,67%,86%,9:15:0,6°,Soleil et partiellement nuageux
+29,2020/01/29,8°,4°,17km/h,2mm,83%,74%,9:18:0,6°,Faibles averses de neige fondue
+30,2020/01/30,11°,6°,17km/h,2mm,94%,86%,9:20:0,10°,Bruine légère
+31,2020/01/31,13°,11°,15km/h,1mm,95%,90%,9:23:0,12°,Pluie légère et soleil
+32,2020/02/01,14°,12°,26km/h,15mm,90%,90%,9:26:0,13°,Faible pluie en continue
+33,2020/02/02,14°,12°,19km/h,12mm,92%,100%,9:29:0,14°,Pluie modérée en continue
+34,2020/02/03,13°,10°,14km/h,14mm,86%,100%,9:32:0,10°,Faible pluie en continue
+35,2020/02/04,9°,6°,27km/h,11mm,71%,81%,9:35:0,7°,Faibles averses de neige fondue
+36,2020/02/05,9°,6°,10km/h,1mm,85%,32%,9:38:0,7°,Soleil et partiellement nuageux
+37,2020/02/06,12°,5°,9km/h,0mm,78%,10%,9:42:0,7°,Soleil et partiellement nuageux
+38,2020/02/07,11°,5°,11km/h,0mm,59%,12%,9:44:0,7°,"Ciel dégagé, pleinement ensoleillé"
+39,2020/02/08,8°,7°,14km/h,5mm,89%,65%,9:48:0,7°,Pluie légère et soleil
+40,2020/02/09,11°,6°,37km/h,2mm,83%,69%,9:50:0,8°,Soleil et partiellement nuageux
+41,2020/02/10,13°,8°,42km/h,16mm,71%,88%,9:54:0,8°,Faible pluie en continue
+42,2020/02/11,8°,5°,25km/h,8mm,73%,89%,9:58:0,6°,Pluie légère et soleil
+43,2020/02/12,8°,4°,17km/h,2mm,73%,74%,10:0:0,6°,Soleil et partiellement nuageux
+44,2020/02/13,10°,6°,34km/h,17mm,85%,92%,10:4:0,9°,Pluie modérée en continue
+45,2020/02/14,11°,7°,13km/h,1mm,88%,75%,10:7:0,9°,Couvert
+46,2020/02/15,13°,7°,21km/h,0mm,92%,64%,10:10:0,10°,Soleil et partiellement nuageux
+47,2020/02/16,16°,13°,37km/h,3mm,63%,91%,10:14:0,14°,Nuageux
+48,2020/02/17,11°,8°,21km/h,12mm,72%,90%,10:17:0,9°,Pluie légère et soleil
+49,2020/02/18,10°,6°,21km/h,1mm,70%,62%,10:20:0,7°,Soleil et partiellement nuageux
+50,2020/02/19,9°,6°,18km/h,5mm,65%,89%,10:24:0,7°,Pluie légère et soleil
+51,2020/02/20,10°,8°,24km/h,3mm,73%,94%,10:27:0,9°,Pluie légère et soleil
+52,2020/02/21,9°,5°,15km/h,0mm,71%,26%,10:31:0,7°,Soleil et partiellement nuageux
+53,2020/02/22,12°,6°,23km/h,1mm,74%,38%,10:35:0,10°,Soleil et partiellement nuageux
+54,2020/02/23,14°,11°,29km/h,1mm,84%,100%,10:37:0,13°,Couvert
+55,2020/02/24,13°,12°,27km/h,2mm,85%,93%,10:41:0,11°,Couvert
+56,2020/02/25,11°,9°,22km/h,8mm,72%,78%,10:44:0,9°,Pluie légère et soleil
+57,2020/02/26,7°,3°,30km/h,11mm,63%,72%,10:48:0,5°,Neige abondante partiellement
+58,2020/02/27,11°,4°,32km/h,11mm,87%,78%,10:52:0,8°,Pluie modérée en continue
+59,2020/02/28,9°,7°,15km/h,14mm,91%,85%,10:55:0,6°,Pluie modérée en continue
+60,2020/02/29,11°,8°,33km/h,4mm,80%,89%,10:59:0,8°,Bruine légère
+61,2020/03/01,8°,5°,24km/h,10mm,76%,77%,11:2:0,8°,Soleil et partiellement nuageux
+62,2020/03/02,9°,6°,24km/h,8mm,81%,81%,11:6:0,7°,Soleil et partiellement nuageux
+63,2020/03/03,8°,4°,15km/h,1mm,75%,54%,11:10:0,6°,Nuageux
+64,2020/03/04,9°,4°,16km/h,1mm,81%,53%,11:13:0,7°,Soleil et partiellement nuageux
+65,2020/03/05,11°,8°,35km/h,30mm,94%,100%,11:17:0,10°,Pluie modérée en continue
+66,2020/03/06,9°,5°,19km/h,8mm,77%,64%,11:20:0,7°,Soleil et partiellement nuageux
+67,2020/03/07,10°,5°,11km/h,1mm,84%,54%,11:24:0,8°,Soleil et partiellement nuageux
+68,2020/03/08,11°,7°,24km/h,6mm,85%,87%,11:27:0,9°,Pluie légère et soleil
+69,2020/03/09,10°,6°,18km/h,4mm,74%,71%,11:31:0,8°,Soleil et partiellement nuageux
+70,2020/03/10,13°,10°,22km/h,13mm,88%,100%,11:35:0,12°,Bruine légère
+71,2020/03/11,17°,13°,23km/h,1mm,85%,76%,11:38:0,15°,Faibles averses de pluie
+72,2020/03/12,12°,11°,20km/h,4mm,81%,78%,11:42:0,10°,Bruine légère
+73,2020/03/13,11°,6°,17km/h,1mm,68%,50%,11:45:0,9°,Soleil et partiellement nuageux
+74,2020/03/14,11°,7°,15km/h,2mm,70%,85%,11:50:0,8°,Couvert
+75,2020/03/15,14°,7°,18km/h,1mm,87%,52%,11:53:0,11°,Couvert
+76,2020/03/16,16°,10°,8km/h,1mm,87%,69%,11:57:0,13°,Soleil et partiellement nuageux
+77,2020/03/17,14°,9°,6km/h,1mm,83%,73%,12:0:0,11°,Couvert
+78,2020/03/18,18°,10°,9km/h,1mm,91%,62%,12:4:0,15°,Soleil et partiellement nuageux
+79,2020/03/19,19°,11°,5km/h,2mm,84%,61%,12:8:0,17°,Soleil et partiellement nuageux
+80,2020/03/20,15°,10°,18km/h,0mm,77%,48%,12:11:0,14°,Soleil et partiellement nuageux
+81,2020/03/21,10°,7°,22km/h,0mm,76%,87%,12:15:0,8°,Couvert
+82,2020/03/22,10°,4°,28km/h,0mm,66%,27%,12:19:0,7°,Soleil et partiellement nuageux
+83,2020/03/23,11°,2°,21km/h,0mm,47%,0%,12:23:0,7°,"Ciel dégagé, pleinement ensoleillé"
+84,2020/03/24,12°,3°,17km/h,0mm,43%,1%,12:26:0,8°,"Ciel dégagé, pleinement ensoleillé"
+85,2020/03/25,11°,4°,16km/h,0mm,50%,2%,12:30:0,8°,"Ciel dégagé, pleinement ensoleillé"
+86,2020/03/26,10°,3°,16km/h,0mm,51%,5%,12:33:0,7°,"Ciel dégagé, pleinement ensoleillé"
+87,2020/03/27,12°,4°,13km/h,0mm,66%,54%,12:37:0,9°,Soleil et partiellement nuageux
+88,2020/03/28,15°,9°,17km/h,1mm,77%,67%,12:40:0,12°,Soleil et partiellement nuageux
+89,2020/03/29,8°,4°,32km/h,1mm,62%,43%,12:44:0,7°,Soleil et partiellement nuageux
+90,2020/03/30,8°,0°,27km/h,0mm,49%,5%,12:47:0,5°,"Ciel dégagé, pleinement ensoleillé"
+91,2020/03/31,10°,3°,20km/h,0mm,85%,11%,12:52:0,8°,Soleil et partiellement nuageux
+92,2020/04/01,14°,5°,11km/h,0mm,55%,3%,12:55:0,9°,Soleil et partiellement nuageux
+93,2020/04/02,10°,4°,10km/h,0mm,79%,47%,12:59:0,8°,Soleil et partiellement nuageux
+94,2020/04/03,14°,7°,8km/h,2mm,82%,72%,13:2:0,11°,Faibles averses de pluie
+95,2020/04/04,16°,7°,11km/h,0mm,76%,15%,13:6:0,13°,Soleil et partiellement nuageux
+96,2020/04/05,20°,10°,17km/h,0mm,77%,1%,13:9:0,16°,"Ciel dégagé, pleinement ensoleillé"
+97,2020/04/06,17°,11°,16km/h,1mm,56%,37%,13:13:0,15°,Soleil et partiellement nuageux
+98,2020/04/07,19°,9°,10km/h,1mm,91%,53%,13:16:0,16°,Soleil et partiellement nuageux
+99,2020/04/08,23°,12°,9km/h,0mm,77%,12%,13:20:0,20°,Soleil et partiellement nuageux
+100,2020/04/09,24°,15°,7km/h,0mm,64%,24%,13:23:0,21°,Soleil et partiellement nuageux
+101,2020/04/10,23°,15°,12km/h,0mm,61%,24%,13:27:0,21°,Soleil et partiellement nuageux
+102,2020/04/11,23°,14°,8km/h,1mm,68%,27%,13:30:0,21°,Soleil et partiellement nuageux
+103,2020/04/12,23°,16°,9km/h,1mm,67%,22%,13:34:0,21°,Soleil et partiellement nuageux
+104,2020/04/13,17°,14°,25km/h,1mm,78%,34%,13:37:0,17°,Soleil et partiellement nuageux
+105,2020/04/14,13°,4°,19km/h,0mm,61%,2%,13:41:0,10°,Soleil et partiellement nuageux
+106,2020/04/15,17°,8°,17km/h,0mm,58%,2%,13:44:0,13°,"Ciel dégagé, pleinement ensoleillé"
+107,2020/04/16,22°,12°,12km/h,0mm,76%,16%,13:48:0,19°,Soleil et partiellement nuageux
+108,2020/04/17,23°,14°,7km/h,3mm,78%,56%,13:51:0,19°,Faibles averses de pluie
+109,2020/04/18,22°,15°,14km/h,11mm,73%,60%,13:55:0,18°,Nuageux
+110,2020/04/19,22°,13°,14km/h,1mm,84%,46%,13:58:0,18°,Couvert
+111,2020/04/20,19°,11°,24km/h,0mm,64%,18%,14:1:0,16°,Soleil et partiellement nuageux
+112,2020/04/21,18°,11°,20km/h,0mm,54%,10%,14:4:0,15°,Soleil et partiellement nuageux
+113,2020/04/22,20°,11°,19km/h,0mm,56%,1%,14:8:0,16°,Soleil et partiellement nuageux
+114,2020/04/23,25°,15°,9km/h,0mm,66%,0%,14:11:0,21°,"Ciel dégagé, pleinement ensoleillé"
+115,2020/04/24,26°,18°,4km/h,0mm,65%,18%,14:14:0,23°,Soleil et partiellement nuageux
+116,2020/04/25,22°,13°,13km/h,1mm,63%,40%,14:18:0,20°,Pluie légère et soleil
+117,2020/04/26,25°,11°,10km/h,0mm,65%,5%,14:20:0,19°,Soleil et partiellement nuageux
+118,2020/04/27,22°,14°,7km/h,3mm,57%,37%,14:24:0,21°,Soleil et partiellement nuageux
+119,2020/04/28,19°,14°,21km/h,1mm,80%,77%,14:27:0,16°,Pluie légère et soleil
+120,2020/04/29,16°,12°,24km/h,2mm,79%,88%,14:31:0,14°,Pluie légère et soleil
+121,2020/04/30,14°,9°,28km/h,5mm,67%,82%,14:33:0,13°,Pluie légère et soleil
+122,2020/05/01,17°,10°,24km/h,3mm,76%,70%,14:37:0,15°,Pluie légère et soleil
+123,2020/05/02,16°,9°,19km/h,1mm,72%,33%,14:40:0,14°,Nuageux
+124,2020/05/03,19°,11°,15km/h,3mm,84%,67%,14:42:0,17°,Bruine légère partielle
+125,2020/05/04,23°,14°,5km/h,0mm,80%,60%,14:46:0,19°,Couvert
+126,2020/05/05,15°,13°,15km/h,1mm,75%,65%,14:49:0,13°,Couvert
+127,2020/05/06,21°,11°,13km/h,0mm,67%,7%,14:52:0,19°,Soleil et partiellement nuageux
+128,2020/05/07,21°,12°,10km/h,0mm,64%,21%,14:55:0,19°,Couvert
+129,2020/05/08,23°,13°,9km/h,0mm,68%,22%,14:58:0,20°,Soleil et partiellement nuageux
+130,2020/05/09,21°,16°,5km/h,4mm,79%,67%,15:1:0,18°,Couvert
+131,2020/05/10,21°,17°,7km/h,3mm,82%,79%,15:3:0,17°,Faible pluie non continue
+132,2020/05/11,14°,6°,34km/h,26mm,81%,79%,15:7:0,9°,Pluie modérée non continue
+133,2020/05/12,14°,6°,18km/h,0mm,57%,61%,15:9:0,11°,Soleil et partiellement nuageux
+134,2020/05/13,16°,7°,21km/h,0mm,65%,18%,15:12:0,13°,Soleil et partiellement nuageux
+135,2020/05/14,14°,6°,24km/h,0mm,68%,57%,15:15:0,12°,Soleil et partiellement nuageux
+136,2020/05/15,16°,7°,20km/h,0mm,67%,1%,15:17:0,13°,"Ciel dégagé, pleinement ensoleillé"
+137,2020/05/16,20°,9°,12km/h,0mm,72%,3%,15:20:0,16°,Soleil et partiellement nuageux
+138,2020/05/17,22°,10°,9km/h,0mm,72%,15%,15:23:0,19°,Soleil et partiellement nuageux
+139,2020/05/18,23°,13°,10km/h,0mm,63%,13%,15:25:0,19°,Soleil et partiellement nuageux
+140,2020/05/19,24°,13°,12km/h,0mm,54%,7%,15:27:0,21°,Soleil et partiellement nuageux
+141,2020/05/20,26°,15°,12km/h,0mm,74%,8%,15:31:0,23°,Soleil et partiellement nuageux
+142,2020/05/21,28°,19°,7km/h,1mm,79%,25%,15:33:0,26°,Soleil et partiellement nuageux
+143,2020/05/22,25°,20°,15km/h,1mm,76%,55%,15:35:0,23°,Soleil et partiellement nuageux
+144,2020/05/23,20°,15°,21km/h,1mm,59%,66%,15:37:0,17°,Soleil et partiellement nuageux
+145,2020/05/24,21°,13°,11km/h,0mm,71%,8%,15:39:0,17°,Soleil et partiellement nuageux
+146,2020/05/25,22°,13°,14km/h,0mm,77%,14%,15:42:0,21°,Soleil et partiellement nuageux
+147,2020/05/26,23°,16°,15km/h,0mm,70%,7%,15:44:0,21°,Soleil et partiellement nuageux
+148,2020/05/27,23°,16°,15km/h,0mm,67%,13%,15:46:0,22°,Soleil et partiellement nuageux
+149,2020/05/28,23°,14°,17km/h,0mm,69%,5%,15:48:0,21°,Soleil et partiellement nuageux
+150,2020/05/29,22°,13°,19km/h,0mm,61%,3%,15:49:0,20°,Soleil et partiellement nuageux
+151,2020/05/30,22°,15°,18km/h,0mm,60%,4%,15:51:0,21°,Soleil et partiellement nuageux
+152,2020/05/31,21°,14°,21km/h,0mm,57%,8%,15:53:0,20°,"Ciel dégagé, pleinement ensoleillé"
+153,2020/06/01,24°,15°,18km/h,0mm,65%,3%,15:55:0,21°,"Ciel dégagé, pleinement ensoleillé"
+154,2020/06/02,27°,19°,12km/h,1mm,68%,16%,15:56:0,25°,"Ciel dégagé, pleinement ensoleillé"
+155,2020/06/03,23°,18°,6km/h,10mm,64%,63%,15:58:0,20°,Pluie forte ou modéré
+156,2020/06/04,16°,13°,14km/h,2mm,78%,90%,15:59:0,13°,Bruine légère
+157,2020/06/05,17°,11°,25km/h,4mm,84%,85%,16:1:0,15°,Faible pluie en continue
+158,2020/06/06,16°,12°,24km/h,2mm,69%,72%,16:1:0,15°,Pluie légère et soleil
+159,2020/06/07,20°,11°,14km/h,1mm,73%,64%,16:3:0,17°,Soleil et partiellement nuageux
+160,2020/06/08,21°,12°,15km/h,2mm,77%,69%,16:4:0,18°,Soleil et partiellement nuageux
+161,2020/06/09,17°,11°,15km/h,0mm,78%,65%,16:6:0,14°,Couvert
+162,2020/06/10,21°,12°,13km/h,0mm,70%,13%,16:6:0,17°,Soleil et partiellement nuageux
+163,2020/06/11,23°,14°,5km/h,1mm,74%,65%,16:7:0,18°,Couvert
+164,2020/06/12,20°,15°,24km/h,17mm,85%,72%,16:8:0,16°,Faibles averses de pluie
+165,2020/06/13,23°,14°,17km/h,2mm,79%,29%,16:9:0,21°,Soleil et partiellement nuageux
+166,2020/06/14,23°,15°,13km/h,1mm,78%,42%,16:10:0,20°,Couvert
+167,2020/06/15,22°,16°,14km/h,2mm,81%,58%,16:10:0,18°,Couvert
+168,2020/06/16,23°,15°,12km/h,4mm,82%,80%,16:11:0,19°,Couvert
+169,2020/06/17,22°,16°,8km/h,5mm,77%,72%,16:11:0,19°,Pluie légère et soleil
+170,2020/06/18,22°,14°,17km/h,3mm,82%,61%,16:11:0,19°,Soleil et partiellement nuageux
+171,2020/06/19,21°,15°,14km/h,3mm,80%,72%,16:11:0,18°,Pluie légère et soleil
+172,2020/06/20,24°,15°,7km/h,1mm,72%,57%,16:11:0,21°,Pluie légère et soleil
+173,2020/06/21,21°,17°,16km/h,3mm,75%,53%,16:11:0,16°,Nuageux
+174,2020/06/22,27°,16°,9km/h,1mm,73%,5%,16:11:0,23°,"Ciel dégagé, pleinement ensoleillé"
+175,2020/06/23,27°,19°,16km/h,0mm,69%,18%,16:11:0,24°,Soleil et partiellement nuageux
+176,2020/06/24,29°,20°,18km/h,0mm,63%,1%,16:10:0,27°,"Ciel dégagé, pleinement ensoleillé"
+177,2020/06/25,31°,21°,13km/h,0mm,63%,2%,16:10:0,28°,Soleil et partiellement nuageux
+178,2020/06/26,24°,23°,17km/h,2mm,79%,63%,16:9:0,22°,Bruine légère partielle
+179,2020/06/27,24°,19°,22km/h,2mm,72%,61%,16:9:0,21°,Pluie légère et soleil
+180,2020/06/28,21°,16°,18km/h,1mm,61%,68%,16:8:0,18°,Nuageux
+181,2020/06/29,19°,16°,19km/h,1mm,65%,58%,16:8:0,17°,Soleil et partiellement nuageux
+182,2020/06/30,22°,15°,21km/h,1mm,74%,82%,16:7:0,17°,Couvert
+183,2020/07/01,23°,19°,17km/h,2mm,78%,78%,16:6:0,22°,Couvert
+184,2020/07/02,22°,16°,16km/h,1mm,78%,56%,16:5:0,19°,Soleil et partiellement nuageux
+185,2020/07/03,23°,15°,16km/h,0mm,72%,26%,16:4:0,19°,Soleil et partiellement nuageux
+186,2020/07/04,22°,16°,19km/h,1mm,68%,71%,16:3:0,21°,Nuageux
+187,2020/07/05,23°,19°,22km/h,1mm,81%,90%,16:2:0,21°,Pluie légère et soleil
+188,2020/07/06,20°,14°,19km/h,1mm,65%,53%,16:0:0,18°,Pluie légère et soleil
+189,2020/07/07,26°,17°,8km/h,0mm,72%,5%,15:59:0,22°,Soleil et partiellement nuageux
+190,2020/07/08,24°,17°,13km/h,0mm,58%,47%,15:57:0,22°,Soleil et partiellement nuageux
+191,2020/07/09,29°,19°,15km/h,0mm,79%,16%,15:56:0,25°,Soleil et partiellement nuageux
+192,2020/07/10,22°,18°,17km/h,1mm,74%,54%,15:54:0,20°,Faibles averses de pluie
+193,2020/07/11,23°,16°,14km/h,0mm,67%,12%,15:52:0,21°,Soleil et partiellement nuageux
+194,2020/07/12,24°,14°,14km/h,0mm,70%,5%,15:51:0,21°,"Ciel dégagé, pleinement ensoleillé"
+195,2020/07/13,26°,16°,11km/h,0mm,68%,29%,15:49:0,23°,Soleil et partiellement nuageux
+196,2020/07/14,22°,17°,14km/h,4mm,55%,63%,15:47:0,20°,Couvert
+197,2020/07/15,21°,17°,12km/h,6mm,76%,64%,15:45:0,19°,Faibles averses de pluie
+198,2020/07/16,21°,16°,12km/h,1mm,76%,75%,15:43:0,20°,Couvert
+199,2020/07/17,23°,18°,9km/h,1mm,75%,82%,15:41:0,20°,Pluie légère et soleil
+200,2020/07/18,29°,18°,9km/h,1mm,74%,12%,15:39:0,24°,Soleil et partiellement nuageux
+201,2020/07/19,30°,19°,5km/h,0mm,64%,25%,15:37:0,27°,Soleil et partiellement nuageux
+202,2020/07/20,23°,17°,15km/h,0mm,80%,40%,15:35:0,21°,Couvert
+203,2020/07/21,25°,15°,14km/h,0mm,72%,4%,15:32:0,22°,Soleil et partiellement nuageux
+204,2020/07/22,25°,15°,13km/h,0mm,69%,15%,15:30:0,22°,Soleil et partiellement nuageux
+205,2020/07/23,26°,17°,10km/h,0mm,62%,22%,15:28:0,24°,Soleil et partiellement nuageux
+206,2020/07/24,24°,18°,14km/h,1mm,58%,62%,15:25:0,23°,Couvert
+207,2020/07/25,26°,20°,16km/h,1mm,73%,62%,15:23:0,23°,Nuageux
+208,2020/07/26,24°,18°,17km/h,5mm,77%,56%,15:20:0,21°,Soleil et partiellement nuageux
+209,2020/07/27,30°,19°,19km/h,0mm,63%,10%,15:17:0,26°,Soleil et partiellement nuageux
+210,2020/07/28,25°,18°,15km/h,1mm,69%,35%,15:15:0,22°,Soleil et partiellement nuageux
+211,2020/07/29,28°,18°,5km/h,0mm,67%,5%,15:12:0,23°,Soleil et partiellement nuageux
+212,2020/07/30,30°,18°,14km/h,0mm,62%,4%,15:9:0,26°,Soleil et partiellement nuageux
+213,2020/07/31,37°,23°,14km/h,1mm,57%,12%,15:7:0,32°,Soleil et partiellement nuageux
+214,2020/08/01,28°,22°,13km/h,2mm,68%,48%,15:3:0,25°,Nuageux
+215,2020/08/02,23°,17°,14km/h,0mm,72%,51%,15:1:0,20°,Soleil et partiellement nuageux
+216,2020/08/03,22°,17°,17km/h,1mm,64%,38%,14:58:0,20°,Faibles averses de pluie
+217,2020/08/04,25°,16°,8km/h,0mm,71%,18%,14:55:0,23°,Soleil et partiellement nuageux
+218,2020/08/05,31°,20°,8km/h,0mm,47%,5%,14:52:0,27°,"Ciel dégagé, pleinement ensoleillé"
+219,2020/08/06,34°,22°,10km/h,0mm,50%,2%,14:50:0,29°,Soleil et partiellement nuageux
+220,2020/08/07,36°,25°,12km/h,0mm,63%,1%,14:46:0,31°,"Ciel dégagé, pleinement ensoleillé"
+221,2020/08/08,37°,26°,10km/h,1mm,64%,11%,14:43:0,32°,Soleil et partiellement nuageux
+222,2020/08/09,38°,26°,6km/h,4mm,55%,48%,14:40:0,35°,Pluie légère et soleil
+223,2020/08/10,38°,25°,6km/h,4mm,60%,19%,14:37:0,34°,Soleil et partiellement nuageux
+224,2020/08/11,38°,27°,9km/h,1mm,52%,16%,14:34:0,34°,Soleil et partiellement nuageux
+225,2020/08/12,36°,27°,9km/h,5mm,61%,44%,14:30:0,33°,Soleil et partiellement nuageux
+226,2020/08/13,27°,22°,18km/h,10mm,70%,67%,14:28:0,24°,Nuageux
+227,2020/08/14,24°,21°,15km/h,6mm,80%,85%,14:24:0,21°,Faibles averses de pluie
+228,2020/08/15,29°,20°,7km/h,0mm,78%,42%,14:21:0,27°,Nuageux
+229,2020/08/16,30°,21°,19km/h,2mm,71%,34%,14:18:0,27°,Averses de pluie et orages
+230,2020/08/17,25°,18°,15km/h,2mm,78%,65%,14:15:0,21°,Nuageux
+231,2020/08/18,26°,19°,12km/h,0mm,74%,36%,14:12:0,22°,Nuageux
+232,2020/08/19,23°,21°,12km/h,1mm,71%,46%,14:8:0,19°,Soleil et partiellement nuageux
+233,2020/08/20,30°,22°,9km/h,0mm,73%,21%,14:5:0,28°,Soleil et partiellement nuageux
+234,2020/08/21,27°,24°,20km/h,1mm,58%,37%,14:2:0,23°,Soleil et partiellement nuageux
+235,2020/08/22,25°,18°,22km/h,1mm,73%,44%,13:58:0,23°,Soleil et partiellement nuageux
+236,2020/08/23,23°,17°,16km/h,1mm,69%,45%,13:55:0,21°,Nuageux
+237,2020/08/24,22°,16°,12km/h,0mm,73%,42%,13:51:0,20°,Soleil et partiellement nuageux
+238,2020/08/25,27°,18°,24km/h,0mm,58%,35%,13:48:0,25°,Soleil et partiellement nuageux
+239,2020/08/26,25°,17°,23km/h,0mm,66%,37%,13:46:0,21°,Soleil et partiellement nuageux
+240,2020/08/27,25°,17°,10km/h,1mm,65%,35%,13:42:0,22°,Soleil et partiellement nuageux
+241,2020/08/28,23°,17°,25km/h,3mm,72%,83%,13:39:0,20°,Pluie légère et soleil
+242,2020/08/29,20°,15°,15km/h,2mm,79%,47%,13:35:0,18°,Nuageux
+243,2020/08/30,20°,15°,19km/h,9mm,84%,74%,13:31:0,17°,Faibles averses de pluie
+244,2020/08/31,20°,15°,15km/h,1mm,75%,75%,13:28:0,18°,Couvert
+245,2020/09/01,19°,14°,9km/h,0mm,68%,50%,13:24:0,17°,Soleil et partiellement nuageux
+246,2020/09/02,25°,15°,9km/h,0mm,69%,8%,13:21:0,20°,"Ciel dégagé, pleinement ensoleillé"
+247,2020/09/03,26°,16°,12km/h,0mm,54%,18%,13:18:0,23°,Soleil et partiellement nuageux
+248,2020/09/04,29°,20°,10km/h,0mm,75%,23%,13:14:0,26°,Soleil et partiellement nuageux
+249,2020/09/05,22°,17°,13km/h,1mm,73%,46%,13:11:0,19°,Nuageux
+250,2020/09/06,19°,14°,9km/h,1mm,68%,45%,13:7:0,17°,Pluie légère et soleil
+251,2020/09/07,24°,14°,7km/h,0mm,76%,11%,13:4:0,21°,Soleil et partiellement nuageux
+252,2020/09/08,26°,16°,7km/h,0mm,71%,23%,13:0:0,22°,Soleil et partiellement nuageux
+253,2020/09/09,27°,18°,11km/h,0mm,80%,33%,12:57:0,24°,Soleil et partiellement nuageux
+254,2020/09/10,25°,18°,8km/h,1mm,85%,65%,12:53:0,23°,Couvert
+255,2020/09/11,28°,18°,6km/h,1mm,70%,42%,12:49:0,24°,Soleil et partiellement nuageux
+256,2020/09/12,25°,17°,10km/h,0mm,74%,24%,12:46:0,21°,Soleil et partiellement nuageux
+257,2020/09/13,32°,20°,4km/h,0mm,66%,1%,12:42:0,26°,"Ciel dégagé, pleinement ensoleillé"
+258,2020/09/14,36°,22°,9km/h,0mm,59%,1%,12:39:0,29°,"Ciel dégagé, pleinement ensoleillé"
+259,2020/09/15,34°,22°,9km/h,0mm,44%,11%,12:36:0,30°,Soleil et partiellement nuageux
+260,2020/09/16,31°,22°,8km/h,1mm,58%,34%,12:32:0,28°,Soleil et partiellement nuageux
+261,2020/09/17,28°,18°,17km/h,1mm,81%,20%,12:28:0,23°,Soleil et partiellement nuageux
+262,2020/09/18,27°,17°,15km/h,0mm,64%,2%,12:24:0,23°,"Ciel dégagé, pleinement ensoleillé"
+263,2020/09/19,27°,21°,12km/h,4mm,68%,57%,12:21:0,23°,Bruine légère partielle
+264,2020/09/20,27°,19°,8km/h,1mm,81%,49%,12:17:0,23°,Soleil et partiellement nuageux
+265,2020/09/21,28°,20°,7km/h,1mm,71%,25%,12:14:0,26°,Soleil et partiellement nuageux
+266,2020/09/22,27°,18°,8km/h,1mm,56%,16%,12:11:0,24°,Soleil et partiellement nuageux
+267,2020/09/23,21°,17°,18km/h,5mm,82%,71%,12:7:0,18°,Pluie légère et soleil
+268,2020/09/24,17°,13°,25km/h,2mm,71%,60%,12:3:0,17°,Soleil et partiellement nuageux
+269,2020/09/25,13°,11°,33km/h,5mm,71%,90%,11:59:0,10°,Faibles averses de pluie
+270,2020/09/26,13°,10°,25km/h,2mm,67%,68%,11:56:0,11°,Nuageux
+271,2020/09/27,14°,11°,28km/h,27mm,85%,100%,11:52:0,11°,Faible pluie en continue
+272,2020/09/28,15°,13°,13km/h,3mm,87%,91%,11:49:0,13°,Faible pluie en continue
+273,2020/09/29,18°,13°,10km/h,2mm,91%,75%,11:45:0,16°,Bruine légère
+274,2020/09/30,19°,15°,14km/h,1mm,81%,65%,11:42:0,17°,Pluie légère et soleil
+275,2020/10/01,17°,14°,19km/h,6mm,79%,79%,11:37:0,15°,Faibles averses de pluie
+276,2020/10/02,16°,11°,25km/h,35mm,82%,89%,11:34:0,15°,Pluie modérée non continue
+277,2020/10/03,14°,11°,19km/h,7mm,80%,84%,11:31:0,13°,Couvert
+278,2020/10/04,15°,11°,25km/h,3mm,74%,71%,11:27:0,13°,Couvert
+279,2020/10/05,13°,11°,31km/h,22mm,82%,98%,11:24:0,12°,Pluie modérée en continue
+280,2020/10/06,16°,13°,26km/h,4mm,85%,82%,11:20:0,14°,Faibles averses de pluie
+281,2020/10/07,16°,12°,20km/h,3mm,77%,87%,11:17:0,14°,Couvert
+282,2020/10/08,18°,15°,22km/h,1mm,80%,88%,11:13:0,17°,Pluie légère et soleil
+283,2020/10/09,18°,15°,15km/h,3mm,84%,50%,11:10:0,16°,Soleil et partiellement nuageux
+284,2020/10/10,15°,11°,14km/h,1mm,69%,35%,11:6:0,13°,Soleil et partiellement nuageux
+285,2020/10/11,15°,10°,14km/h,2mm,81%,65%,11:2:0,13°,Faibles averses de pluie
+286,2020/10/12,15°,9°,9km/h,1mm,81%,56%,10:59:0,13°,Couvert
+287,2020/10/13,12°,10°,17km/h,2mm,82%,82%,10:55:0,10°,Pluie légère et soleil
+288,2020/10/14,14°,9°,18km/h,2mm,84%,83%,10:52:0,12°,Pluie légère et soleil
+289,2020/10/15,11°,8°,15km/h,1mm,77%,96%,10:48:0,9°,Couvert
+290,2020/10/16,13°,8°,11km/h,0mm,72%,70%,10:45:0,11°,Soleil et partiellement nuageux
+291,2020/10/17,12°,8°,6km/h,0mm,84%,55%,10:41:0,11°,Soleil et partiellement nuageux
+292,2020/10/18,15°,10°,4km/h,0mm,70%,35%,10:39:0,13°,Soleil et partiellement nuageux
+293,2020/10/19,14°,9°,15km/h,0mm,75%,22%,10:35:0,12°,Soleil et partiellement nuageux
+294,2020/10/20,17°,13°,22km/h,2mm,72%,76%,10:32:0,16°,Soleil et partiellement nuageux
+295,2020/10/21,19°,17°,27km/h,2mm,68%,80%,10:28:0,17°,Nuageux
+296,2020/10/22,21°,16°,17km/h,3mm,84%,63%,10:24:0,18°,Couvert
+297,2020/10/23,19°,14°,19km/h,2mm,90%,67%,10:21:0,17°,Soleil et partiellement nuageux
+298,2020/10/24,17°,11°,20km/h,1mm,86%,66%,10:18:0,15°,Soleil et partiellement nuageux
+299,2020/10/25,15°,12°,25km/h,11mm,72%,80%,10:15:0,12°,Faibles averses de pluie
+300,2020/10/26,14°,9°,20km/h,1mm,78%,31%,10:11:0,11°,Soleil et partiellement nuageux
+301,2020/10/27,11°,9°,26km/h,2mm,79%,77%,10:8:0,10°,Couvert
+302,2020/10/28,14°,12°,24km/h,2mm,71%,73%,10:5:0,13°,Soleil et partiellement nuageux
+303,2020/10/29,15°,12°,18km/h,1mm,75%,86%,10:1:0,14°,Soleil et partiellement nuageux
+304,2020/10/30,16°,14°,16km/h,0mm,80%,78%,9:58:0,14°,Couvert
+305,2020/10/31,17°,12°,19km/h,0mm,84%,29%,9:55:0,15°,Soleil et partiellement nuageux
+306,2020/11/01,17°,14°,27km/h,1mm,83%,95%,9:52:0,16°,Pluie légère et soleil
+307,2020/11/02,20°,18°,31km/h,1mm,75%,86%,9:48:0,19°,Soleil et partiellement nuageux
+308,2020/11/03,12°,10°,22km/h,1mm,67%,39%,9:45:0,11°,Nuageux
+309,2020/11/04,11°,8°,13km/h,0mm,74%,13%,9:42:0,9°,Soleil et partiellement nuageux
+310,2020/11/05,12°,7°,17km/h,0mm,79%,1%,9:39:0,9°,"Ciel dégagé, pleinement ensoleillé"
+311,2020/11/06,13°,7°,13km/h,0mm,76%,3%,9:36:0,10°,Soleil et partiellement nuageux
+312,2020/11/07,16°,10°,10km/h,0mm,89%,25%,9:33:0,14°,Soleil et partiellement nuageux
+313,2020/11/08,17°,14°,14km/h,1mm,87%,48%,9:30:0,16°,Bruine légère partielle
+314,2020/11/09,17°,12°,7km/h,1mm,92%,51%,9:27:0,14°,Soleil et partiellement nuageux
+315,2020/11/10,17°,14°,8km/h,2mm,86%,63%,9:23:0,15°,Nuageux
+316,2020/11/11,14°,11°,11km/h,1mm,93%,67%,9:21:0,12°,Soleil et partiellement nuageux
+317,2020/11/12,15°,13°,16km/h,1mm,78%,61%,9:18:0,14°,Pluie légère et soleil
+318,2020/11/13,15°,12°,15km/h,1mm,83%,64%,9:15:0,13°,Soleil et partiellement nuageux
+319,2020/11/14,17°,12°,16km/h,0mm,85%,37%,9:12:0,14°,Soleil et partiellement nuageux
+320,2020/11/15,15°,13°,33km/h,12mm,80%,70%,9:10:0,14°,Nuageux
+321,2020/11/16,13°,11°,21km/h,2mm,70%,73%,9:7:0,11°,Soleil et partiellement nuageux
+322,2020/11/17,14°,10°,11km/h,0mm,80%,27%,9:5:0,11°,Soleil et partiellement nuageux
+323,2020/11/18,15°,11°,14km/h,0mm,79%,12%,9:2:0,12°,"Ciel dégagé, pleinement ensoleillé"
+324,2020/11/19,12°,9°,24km/h,1mm,67%,70%,8:59:0,11°,Couvert
+325,2020/11/20,10°,7°,5km/h,0mm,69%,42%,8:56:0,8°,Soleil et partiellement nuageux
+326,2020/11/21,10°,6°,10km/h,0mm,73%,32%,8:54:0,8°,Soleil et partiellement nuageux
+327,2020/11/22,10°,7°,6km/h,0mm,69%,67%,8:52:0,9°,Soleil et partiellement nuageux
+328,2020/11/23,11°,7°,5km/h,0mm,89%,75%,8:50:0,10°,Couvert
+329,2020/11/24,10°,7°,11km/h,0mm,90%,21%,8:48:0,8°,Soleil et partiellement nuageux
+330,2020/11/25,11°,7°,13km/h,0mm,81%,47%,8:45:0,9°,Nuageux
+331,2020/11/26,12°,8°,5km/h,0mm,88%,47%,8:43:0,11°,Soleil et partiellement nuageux
+332,2020/11/27,12°,7°,6km/h,0mm,88%,11%,8:41:0,9°,Soleil et partiellement nuageux
+333,2020/11/28,13°,8°,9km/h,0mm,85%,10%,8:39:0,10°,Soleil et partiellement nuageux
+334,2020/11/29,11°,7°,10km/h,0mm,72%,1%,8:37:0,8°,"Ciel dégagé, pleinement ensoleillé"
+335,2020/11/30,9°,4°,5km/h,1mm,72%,32%,8:35:0,6°,Soleil et partiellement nuageux
+336,2020/12/01,9°,8°,19km/h,4mm,76%,87%,8:33:0,7°,Soleil et partiellement nuageux
+337,2020/12/02,8°,7°,11km/h,1mm,88%,81%,8:32:0,7°,Nuageux
+338,2020/12/03,7°,6°,18km/h,3mm,85%,98%,8:30:0,6°,Couvert
+339,2020/12/04,7°,6°,30km/h,13mm,71%,83%,8:28:0,5°,Neige fondue en faible quantité
+340,2020/12/05,6°,3°,15km/h,1mm,81%,60%,8:27:0,4°,Nuageux
+341,2020/12/06,6°,4°,13km/h,4mm,86%,93%,8:25:0,4°,Foyers orageux à proximité
+342,2020/12/07,6°,4°,6km/h,1mm,83%,79%,8:24:0,5°,Soleil et partiellement nuageux
+343,2020/12/08,4°,2°,9km/h,0mm,84%,81%,8:23:0,3°,Couvert
+344,2020/12/09,6°,3°,8km/h,1mm,86%,68%,8:22:0,4°,Nuageux
+345,2020/12/10,6°,4°,15km/h,1mm,87%,85%,8:21:0,4°,Pluie légère et soleil
+346,2020/12/11,10°,7°,17km/h,12mm,95%,97%,8:20:0,9°,Faible pluie en continue
+347,2020/12/12,9°,7°,19km/h,4mm,97%,86%,8:19:0,8°,Bruine légère
+348,2020/12/13,7°,5°,15km/h,1mm,85%,51%,8:18:0,5°,Soleil et partiellement nuageux
+349,2020/12/14,10°,9°,16km/h,3mm,90%,82%,8:17:0,9°,Nuageux
+350,2020/12/15,11°,10°,15km/h,19mm,90%,68%,8:17:0,10°,Faible pluie en continue
+351,2020/12/16,10°,7°,14km/h,0mm,94%,49%,8:16:0,8°,Soleil et partiellement nuageux
+352,2020/12/17,11°,9°,15km/h,1mm,86%,60%,8:16:0,9°,Soleil et partiellement nuageux
+353,2020/12/18,11°,7°,14km/h,0mm,92%,33%,8:15:0,9°,Soleil et partiellement nuageux
+354,2020/12/19,11°,10°,18km/h,2mm,87%,71%,8:15:0,10°,Bruine légère
+355,2020/12/20,10°,8°,13km/h,0mm,90%,55%,8:15:0,9°,Soleil et partiellement nuageux
+356,2020/12/21,10°,8°,26km/h,12mm,90%,91%,8:15:0,9°,Pluie modérée en continue
+357,2020/12/22,14°,13°,19km/h,3mm,90%,94%,8:15:0,13°,Faible pluie non continue
+358,2020/12/23,13°,12°,20km/h,18mm,90%,94%,8:15:0,12°,Pluie légère et soleil
+359,2020/12/24,9°,7°,27km/h,5mm,75%,91%,8:15:0,7°,Pluie légère et soleil
+360,2020/12/25,6°,5°,19km/h,2mm,79%,75%,8:16:0,5°,Couvert
+361,2020/12/26,5°,3°,14km/h,0mm,78%,68%,8:16:0,4°,Soleil et partiellement nuageux
+362,2020/12/27,8°,7°,43km/h,28mm,82%,98%,8:16:0,7°,Faible pluie en continue
+363,2020/12/28,5°,4°,22km/h,7mm,79%,82%,8:17:0,3°,Soleil et partiellement nuageux
+364,2020/12/29,5°,3°,17km/h,11mm,89%,94%,8:18:0,3°,Neige abondante en continue
+365,2020/12/30,6°,2°,13km/h,2mm,88%,88%,8:19:0,4°,Couvert
+366,2020/12/31,6°,5°,17km/h,6mm,91%,88%,8:20:0,5°,Bruine légère
+367,2021/01/01,3°,2°,7km/h,1mm,86%,83%,8:21:0,2°,Nuageux
+368,2021/01/02,5°,2°,7km/h,1mm,76%,55%,8:22:0,3°,Soleil et partiellement nuageux
+369,2021/01/03,4°,2°,10km/h,1mm,92%,72%,8:23:0,3°,Couvert
+370,2021/01/04,3°,2°,13km/h,1mm,95%,100%,8:24:0,2°,Faibles chutes de neige en continue
+371,2021/01/05,3°,2°,14km/h,1mm,94%,99%,8:26:0,2°,Neige abondante en continue
+372,2021/01/06,3°,1°,11km/h,1mm,95%,97%,8:27:0,2°,Faibles chutes de neige en continue
+373,2021/01/07,3°,1°,7km/h,1mm,92%,85%,8:28:0,2°,Brouillard
+374,2021/01/08,3°,1°,5km/h,0mm,88%,51%,8:31:0,2°,Neige abondante en continue
+375,2021/01/09,3°,1°,19km/h,0mm,90%,23%,8:32:0,2°,Soleil et partiellement nuageux
+376,2021/01/10,4°,0°,12km/h,0mm,88%,13%,8:34:0,2°,Soleil et partiellement nuageux
+377,2021/01/11,4°,1°,8km/h,0mm,84%,50%,8:36:0,3°,Soleil et partiellement nuageux
+378,2021/01/12,9°,6°,23km/h,18mm,95%,100%,8:38:0,8°,Faible pluie en continue
+379,2021/01/13,9°,5°,20km/h,8mm,98%,97%,8:39:0,9°,Faible pluie en continue
+380,2021/01/14,9°,8°,18km/h,5mm,89%,98%,8:42:0,8°,Pluie légère et soleil
+381,2021/01/15,5°,2°,17km/h,1mm,89%,53%,8:44:0,2°,Chûtes de neige modérées en continu
+382,2021/01/16,1°,0°,15km/h,11mm,90%,80%,8:46:0,0°,Couvert
+383,2021/01/17,7°,4°,11km/h,0mm,93%,75%,8:48:0,4°,Soleil et partiellement nuageux
+384,2021/01/18,6°,3°,13km/h,0mm,94%,60%,8:51:0,4°,Soleil et partiellement nuageux
+385,2021/01/19,8°,4°,23km/h,3mm,84%,80%,8:53:0,7°,Bruine légère
+386,2021/01/20,10°,6°,25km/h,1mm,67%,87%,8:56:0,7°,Nuageux
+387,2021/01/21,10°,7°,25km/h,14mm,74%,83%,8:58:0,7°,Soleil et partiellement nuageux
+388,2021/01/22,7°,5°,12km/h,12mm,86%,96%,9:1:0,5°,Nuageux
+389,2021/01/23,5°,3°,13km/h,3mm,85%,65%,9:3:0,4°,Couvert
+390,2021/01/24,5°,3°,20km/h,4mm,79%,42%,9:6:0,3°,Soleil et partiellement nuageux
+391,2021/01/25,6°,2°,21km/h,2mm,86%,65%,9:8:0,4°,Neige abondante partiellement
+392,2021/01/26,5°,1°,13km/h,1mm,84%,35%,9:11:0,3°,Soleil et partiellement nuageux
+393,2021/01/27,7°,3°,15km/h,1mm,94%,99%,9:14:0,7°,Couvert
+394,2021/01/28,13°,10°,22km/h,12mm,92%,90%,9:16:0,12°,Faible pluie en continue
+395,2021/01/29,11°,10°,35km/h,12mm,82%,94%,9:20:0,10°,Pluie légère et soleil
+396,2021/01/30,12°,9°,18km/h,18mm,94%,89%,9:22:0,11°,Faible pluie en continue
+397,2021/01/31,9°,5°,14km/h,4mm,85%,100%,9:25:0,6°,Couvert
+398,2021/02/01,10°,9°,10km/h,8mm,94%,94%,9:29:0,10°,Bruine légère
+399,2021/02/02,14°,9°,22km/h,6mm,92%,94%,9:31:0,13°,Faibles averses de pluie
+400,2021/02/03,12°,10°,41km/h,12mm,88%,94%,9:34:0,9°,Faible pluie en continue
+401,2021/02/04,10°,7°,11km/h,1mm,89%,72%,9:38:0,8°,Pluie légère et soleil
+402,2021/02/05,11°,8°,8km/h,1mm,92%,84%,9:40:0,9°,Couvert
+403,2021/02/06,10°,8°,17km/h,11mm,86%,99%,9:44:0,9°,Bruine légère
+404,2021/02/07,8°,5°,20km/h,6mm,82%,93%,9:46:0,4°,Couvert
+405,2021/02/08,2°,0°,9km/h,1mm,75%,75%,9:50:0,1°,Soleil et partiellement nuageux
+406,2021/02/09,0°,-3°,11km/h,0mm,76%,88%,9:54:0,-1°,Soleil et partiellement nuageux
+407,2021/02/10,-1°,-4°,22km/h,4mm,77%,44%,9:56:0,-3°,Soleil et partiellement nuageux
+408,2021/02/11,0°,-4°,18km/h,0mm,67%,9%,10:0:0,-2°,Soleil et partiellement nuageux
+409,2021/02/12,0°,-2°,26km/h,0mm,40%,36%,10:3:0,0°,Couvert
+410,2021/02/13,1°,-4°,24km/h,0mm,39%,19%,10:6:0,-2°,Soleil et partiellement nuageux
+411,2021/02/14,1°,-3°,18km/h,0mm,51%,42%,10:10:0,-2°,Soleil et partiellement nuageux
+412,2021/02/15,6°,2°,17km/h,1mm,83%,55%,10:12:0,5°,Soleil et partiellement nuageux
+413,2021/02/16,9°,4°,22km/h,1mm,87%,56%,10:16:0,6°,Couvert
+414,2021/02/17,10°,7°,18km/h,0mm,94%,74%,10:20:0,9°,Pluie légère et soleil
+415,2021/02/18,12°,7°,20km/h,8mm,83%,84%,10:23:0,10°,Faibles averses de pluie
+416,2021/02/19,12°,5°,15km/h,0mm,90%,41%,10:26:0,9°,Soleil et partiellement nuageux
+417,2021/02/20,16°,9°,21km/h,0mm,83%,15%,10:30:0,13°,Soleil et partiellement nuageux
+418,2021/02/21,15°,9°,14km/h,0mm,68%,16%,10:33:0,12°,Soleil et partiellement nuageux
+419,2021/02/22,13°,10°,18km/h,1mm,62%,42%,10:37:0,13°,Soleil et partiellement nuageux
+420,2021/02/23,15°,10°,20km/h,0mm,80%,25%,10:40:0,12°,Soleil et partiellement nuageux
+421,2021/02/24,19°,11°,15km/h,0mm,91%,7%,10:44:0,14°,Soleil et partiellement nuageux
+422,2021/02/25,16°,11°,11km/h,0mm,76%,29%,10:48:0,13°,Soleil et partiellement nuageux
+423,2021/02/26,11°,9°,16km/h,3mm,82%,89%,10:51:0,8°,Pluie légère et soleil
+424,2021/02/27,11°,5°,17km/h,0mm,73%,3%,10:54:0,8°,Soleil et partiellement nuageux
+425,2021/02/28,13°,6°,19km/h,0mm,78%,0%,10:57:0,9°,"Ciel dégagé, pleinement ensoleillé"
+426,2021/03/01,14°,6°,11km/h,0mm,75%,1%,11:1:0,9°,"Ciel dégagé, pleinement ensoleillé"
+427,2021/03/02,17°,6°,6km/h,0mm,90%,17%,11:5:0,12°,Soleil et partiellement nuageux
+428,2021/03/03,16°,9°,7km/h,2mm,78%,36%,11:8:0,13°,Soleil et partiellement nuageux
+429,2021/03/04,12°,10°,11km/h,3mm,84%,79%,11:12:0,10°,Couvert
+430,2021/03/05,7°,3°,19km/h,0mm,73%,44%,11:15:0,4°,Couvert
+431,2021/03/06,9°,2°,18km/h,0mm,64%,0%,11:19:0,5°,"Ciel dégagé, pleinement ensoleillé"
+432,2021/03/07,11°,4°,10km/h,0mm,60%,0%,11:23:0,7°,"Ciel dégagé, pleinement ensoleillé"
+433,2021/03/08,10°,3°,9km/h,0mm,76%,15%,11:27:0,6°,Soleil et partiellement nuageux
+434,2021/03/09,12°,3°,7km/h,0mm,73%,24%,11:31:0,8°,Soleil et partiellement nuageux
+435,2021/03/10,10°,5°,20km/h,1mm,83%,72%,11:34:0,8°,Couvert
+436,2021/03/11,12°,11°,27km/h,10mm,86%,91%,11:38:0,12°,Pluie modérée en continue
+437,2021/03/12,11°,5°,27km/h,4mm,73%,72%,11:41:0,9°,Nuageux
+438,2021/03/13,10°,9°,35km/h,11mm,70%,89%,11:45:0,9°,Pluie modérée non continue
+439,2021/03/14,10°,5°,23km/h,2mm,72%,80%,11:48:0,8°,Couvert
+440,2021/03/15,11°,8°,23km/h,8mm,84%,88%,11:52:0,9°,Faible pluie en continue
+441,2021/03/16,10°,6°,8km/h,0mm,82%,73%,11:56:0,10°,Soleil et partiellement nuageux
+442,2021/03/17,9°,6°,24km/h,1mm,76%,88%,11:59:0,8°,Couvert
+443,2021/03/18,8°,4°,15km/h,2mm,87%,87%,12:4:0,6°,Pluie légère et soleil
+444,2021/03/19,8°,4°,26km/h,0mm,83%,57%,12:7:0,6°,Couvert
+445,2021/03/20,10°,3°,16km/h,0mm,77%,21%,12:11:0,7°,Soleil et partiellement nuageux
+446,2021/03/21,11°,5°,12km/h,1mm,83%,65%,12:14:0,8°,Nuageux
+447,2021/03/22,10°,4°,12km/h,0mm,84%,31%,12:18:0,8°,Soleil et partiellement nuageux
+448,2021/03/23,14°,5°,4km/h,0mm,79%,37%,12:21:0,11°,Soleil et partiellement nuageux
+449,2021/03/24,16°,7°,11km/h,0mm,79%,35%,12:25:0,12°,Soleil et partiellement nuageux
+450,2021/03/25,15°,9°,10km/h,1mm,82%,70%,12:28:0,12°,Nuageux
+451,2021/03/26,11°,8°,27km/h,3mm,78%,73%,12:33:0,10°,Nuageux
+452,2021/03/27,13°,6°,12km/h,0mm,70%,22%,12:36:0,10°,Soleil et partiellement nuageux
+453,2021/03/28,18°,9°,18km/h,0mm,73%,24%,12:40:0,15°,Soleil et partiellement nuageux
+454,2021/03/29,21°,11°,8km/h,0mm,74%,10%,12:43:0,17°,Soleil et partiellement nuageux
+455,2021/03/30,24°,13°,10km/h,0mm,72%,12%,12:47:0,20°,"Ciel dégagé, pleinement ensoleillé"
+456,2021/03/31,24°,13°,8km/h,0mm,80%,5%,12:50:0,21°,Soleil et partiellement nuageux
+457,2021/04/01,24°,16°,14km/h,0mm,73%,5%,12:54:0,21°,Soleil et partiellement nuageux
+458,2021/04/02,14°,8°,22km/h,0mm,70%,1%,12:57:0,12°,"Ciel dégagé, pleinement ensoleillé"
+459,2021/04/03,13°,4°,19km/h,0mm,81%,27%,13:1:0,9°,Nuageux
+460,2021/04/04,17°,5°,13km/h,0mm,79%,2%,13:4:0,11°,"Ciel dégagé, pleinement ensoleillé"
+461,2021/04/05,11°,6°,25km/h,1mm,76%,51%,13:8:0,7°,Couvert
+462,2021/04/06,6°,1°,22km/h,1mm,56%,52%,13:12:0,5°,Fortes chutes de neige
+463,2021/04/07,8°,2°,18km/h,1mm,68%,27%,13:16:0,5°,"Ciel dégagé, pleinement ensoleillé"
+464,2021/04/08,13°,4°,12km/h,0mm,70%,23%,13:19:0,10°,Soleil et partiellement nuageux
+465,2021/04/09,15°,6°,13km/h,2mm,65%,82%,13:23:0,13°,Couvert
+466,2021/04/10,11°,9°,9km/h,36mm,95%,100%,13:26:0,9°,Pluie modérée en continue
+467,2021/04/11,10°,4°,18km/h,14mm,96%,98%,13:30:0,3°,Pluie modérée en continue
+468,2021/04/12,9°,3°,12km/h,0mm,85%,28%,13:33:0,7°,Soleil et partiellement nuageux
+469,2021/04/13,11°,4°,13km/h,0mm,79%,42%,13:37:0,9°,Soleil et partiellement nuageux
+470,2021/04/14,12°,4°,15km/h,0mm,59%,16%,13:39:0,10°,Soleil et partiellement nuageux
+471,2021/04/15,11°,4°,15km/h,0mm,78%,30%,13:43:0,8°,Soleil et partiellement nuageux
+472,2021/04/16,9°,3°,20km/h,1mm,71%,57%,13:46:0,8°,Soleil et partiellement nuageux
+473,2021/04/17,13°,4°,18km/h,0mm,81%,20%,13:50:0,11°,Soleil et partiellement nuageux
+474,2021/04/18,12°,5°,11km/h,0mm,79%,75%,13:53:0,11°,Nuageux
+475,2021/04/19,15°,8°,8km/h,1mm,74%,71%,13:57:0,12°,Couvert
+476,2021/04/20,16°,10°,9km/h,1mm,68%,64%,14:0:0,14°,Pluie légère et soleil
+477,2021/04/21,16°,9°,16km/h,0mm,82%,41%,14:4:0,14°,Nuageux
+478,2021/04/22,14°,6°,19km/h,0mm,72%,6%,14:7:0,12°,Soleil et partiellement nuageux
+479,2021/04/23,17°,8°,19km/h,0mm,71%,0%,14:11:0,14°,"Ciel dégagé, pleinement ensoleillé"
+480,2021/04/24,19°,9°,18km/h,0mm,63%,15%,14:13:0,16°,Soleil et partiellement nuageux
+481,2021/04/25,17°,7°,21km/h,0mm,69%,11%,14:17:0,15°,Soleil et partiellement nuageux
+482,2021/04/26,17°,6°,22km/h,0mm,66%,1%,14:20:0,14°,"Ciel dégagé, pleinement ensoleillé"
+483,2021/04/27,18°,8°,14km/h,0mm,60%,5%,14:23:0,15°,Soleil et partiellement nuageux
+484,2021/04/28,18°,8°,6km/h,0mm,69%,20%,14:27:0,16°,Soleil et partiellement nuageux
+485,2021/04/29,12°,7°,13km/h,0mm,82%,50%,14:29:0,12°,Nuageux
+486,2021/04/30,13°,8°,8km/h,0mm,67%,84%,14:33:0,10°,Soleil et partiellement nuageux
+487,2021/05/01,15°,7°,14km/h,0mm,68%,29%,14:36:0,13°,Soleil et partiellement nuageux
+488,2021/05/02,14°,6°,11km/h,1mm,84%,46%,14:39:0,12°,Soleil et partiellement nuageux
+489,2021/05/03,15°,8°,17km/h,1mm,79%,37%,14:42:0,13°,Soleil et partiellement nuageux
+490,2021/05/04,13°,8°,29km/h,5mm,86%,83%,14:46:0,12°,Faible pluie en continue
+491,2021/05/05,12°,7°,21km/h,1mm,74%,55%,14:48:0,11°,Faibles averses de pluie
+492,2021/05/06,9°,7°,11km/h,6mm,92%,87%,14:51:0,6°,Bruine légère
+493,2021/05/07,14°,7°,8km/h,1mm,84%,75%,14:55:0,11°,Nuageux
+494,2021/05/08,20°,7°,21km/h,1mm,80%,40%,14:57:0,15°,Pluie légère et soleil
+495,2021/05/09,23°,15°,29km/h,3mm,80%,61%,15:1:0,22°,Pluie légère et soleil
+496,2021/05/10,18°,12°,21km/h,5mm,90%,85%,15:3:0,17°,Pluie légère et soleil
+497,2021/05/11,15°,11°,16km/h,1mm,84%,61%,15:6:0,12°,Nuageux
+498,2021/05/12,17°,9°,11km/h,1mm,82%,35%,15:9:0,14°,Soleil et partiellement nuageux
+499,2021/05/13,15°,9°,13km/h,6mm,94%,81%,15:11:0,13°,Couvert
+500,2021/05/14,12°,8°,16km/h,4mm,90%,62%,15:14:0,11°,Couvert
+501,2021/05/15,15°,9°,19km/h,4mm,91%,76%,15:17:0,13°,Bruine légère
+502,2021/05/16,16°,10°,24km/h,3mm,88%,81%,15:19:0,14°,Soleil et partiellement nuageux
+503,2021/05/17,14°,10°,22km/h,8mm,86%,92%,15:22:0,12°,Faibles averses de pluie
+504,2021/05/18,15°,9°,21km/h,3mm,91%,97%,15:25:0,12°,Faibles averses de pluie
+505,2021/05/19,12°,9°,17km/h,5mm,95%,87%,15:27:0,11°,Faibles averses de pluie
+506,2021/05/20,18°,9°,12km/h,1mm,87%,36%,15:29:0,15°,Nuageux
+507,2021/05/21,17°,10°,29km/h,2mm,83%,66%,15:33:0,15°,Soleil et partiellement nuageux
+508,2021/05/22,13°,10°,26km/h,6mm,74%,86%,15:35:0,13°,Faibles averses de pluie
+509,2021/05/23,15°,8°,22km/h,1mm,85%,64%,15:37:0,13°,Soleil et partiellement nuageux
+510,2021/05/24,15°,9°,24km/h,5mm,91%,73%,15:39:0,14°,Pluie légère et soleil
+511,2021/05/25,13°,8°,26km/h,5mm,84%,88%,15:41:0,12°,Couvert
+512,2021/05/26,14°,10°,21km/h,15mm,95%,99%,15:43:0,12°,Pluie légère et soleil
+513,2021/05/27,21°,14°,4km/h,0mm,67%,26%,15:46:0,19°,Soleil et partiellement nuageux
+514,2021/05/28,19°,12°,13km/h,0mm,83%,27%,15:47:0,18°,Soleil et partiellement nuageux
+515,2021/05/29,21°,13°,15km/h,0mm,74%,44%,15:49:0,20°,Soleil et partiellement nuageux
+516,2021/05/30,21°,13°,18km/h,0mm,73%,37%,15:51:0,20°,Soleil et partiellement nuageux
+517,2021/05/31,21°,15°,19km/h,0mm,75%,3%,15:53:0,20°,"Ciel dégagé, pleinement ensoleillé"
+518,2021/06/01,25°,15°,15km/h,0mm,75%,5%,15:55:0,23°,Soleil et partiellement nuageux
+519,2021/06/02,20°,16°,9km/h,6mm,92%,49%,15:56:0,19°,Soleil et partiellement nuageux
+520,2021/06/03,26°,18°,8km/h,5mm,90%,72%,15:58:0,24°,Soleil et partiellement nuageux
+521,2021/06/04,25°,17°,7km/h,8mm,93%,60%,15:59:0,22°,Faibles averses de pluie
+522,2021/06/05,19°,14°,12km/h,2mm,97%,91%,16:0:0,15°,Couvert
+523,2021/06/06,23°,13°,13km/h,0mm,80%,25%,16:1:0,20°,Soleil et partiellement nuageux
+524,2021/06/07,23°,15°,8km/h,1mm,83%,53%,16:3:0,21°,Soleil et partiellement nuageux
+525,2021/06/08,24°,16°,6km/h,1mm,83%,50%,16:4:0,23°,Pluie légère et soleil
+526,2021/06/09,25°,17°,5km/h,1mm,79%,34%,16:6:0,24°,Soleil et partiellement nuageux
+527,2021/06/10,26°,18°,5km/h,2mm,77%,41%,16:6:0,25°,Soleil et partiellement nuageux
+528,2021/06/11,27°,17°,9km/h,1mm,85%,31%,16:7:0,25°,Soleil et partiellement nuageux
+529,2021/06/12,25°,18°,13km/h,0mm,82%,15%,16:7:0,21°,Nuageux
+530,2021/06/13,25°,16°,16km/h,0mm,72%,2%,16:8:0,22°,Soleil et partiellement nuageux
+531,2021/06/14,29°,19°,9km/h,0mm,70%,4%,16:10:0,28°,"Ciel dégagé, pleinement ensoleillé"
+532,2021/06/15,29°,21°,11km/h,0mm,78%,10%,16:10:0,28°,Soleil et partiellement nuageux
+533,2021/06/16,30°,21°,13km/h,0mm,78%,12%,16:10:0,29°,Soleil et partiellement nuageux
+534,2021/06/17,29°,20°,13km/h,8mm,94%,66%,16:11:0,26°,Nuageux
+535,2021/06/18,21°,19°,24km/h,57mm,95%,80%,16:11:0,18°,Pluie légère et soleil
+536,2021/06/19,26°,17°,15km/h,4mm,78%,54%,16:11:0,23°,Soleil et partiellement nuageux
+537,2021/06/20,24°,17°,14km/h,12mm,95%,84%,16:11:0,23°,Pluie légère et soleil
+538,2021/06/21,23°,17°,13km/h,3mm,91%,66%,16:11:0,22°,Soleil et partiellement nuageux
+539,2021/06/22,17°,14°,13km/h,3mm,95%,91%,16:11:0,15°,Couvert
+540,2021/06/23,20°,14°,12km/h,2mm,91%,86%,16:11:0,19°,Couvert
+541,2021/06/24,19°,14°,13km/h,15mm,92%,87%,16:10:0,19°,Faibles averses de pluie
+542,2021/06/25,23°,13°,6km/h,1mm,88%,46%,16:10:0,21°,Soleil et partiellement nuageux
+543,2021/06/26,25°,14°,14km/h,2mm,96%,69%,16:10:0,21°,Nuageux
+544,2021/06/27,19°,17°,12km/h,4mm,94%,69%,16:9:0,19°,Pluie légère et soleil
+545,2021/06/28,19°,15°,9km/h,12mm,96%,80%,16:9:0,17°,Bruine légère
+546,2021/06/29,19°,14°,16km/h,8mm,97%,79%,16:8:0,15°,Faible pluie en continue
+547,2021/06/30,16°,14°,10km/h,5mm,94%,84%,16:7:0,15°,Faibles averses de pluie
+548,2021/07/01,22°,15°,12km/h,1mm,76%,47%,16:7:0,20°,Soleil et partiellement nuageux
+549,2021/07/02,24°,18°,8km/h,0mm,79%,18%,16:5:0,22°,Soleil et partiellement nuageux
+550,2021/07/03,22°,18°,8km/h,2mm,84%,74%,16:4:0,18°,Pluie légère et soleil
+551,2021/07/04,18°,17°,14km/h,6mm,89%,77%,16:3:0,16°,Faibles averses de pluie
+552,2021/07/05,21°,14°,16km/h,3mm,93%,83%,16:2:0,16°,Faible pluie en continue
+553,2021/07/06,23°,18°,27km/h,18mm,96%,49%,16:1:0,20°,Soleil et partiellement nuageux
+554,2021/07/07,21°,15°,14km/h,1mm,82%,55%,15:59:0,20°,Pluie légère et soleil
+555,2021/07/08,22°,15°,14km/h,1mm,92%,68%,15:57:0,20°,Nuageux
+556,2021/07/09,24°,16°,10km/h,1mm,87%,46%,15:57:0,22°,Nuageux
+557,2021/07/10,22°,17°,17km/h,1mm,79%,63%,15:55:0,19°,Pluie légère et soleil
+558,2021/07/11,25°,15°,8km/h,1mm,86%,34%,15:53:0,21°,Soleil et partiellement nuageux
+559,2021/07/12,20°,17°,10km/h,2mm,82%,63%,15:52:0,20°,Couvert
+560,2021/07/13,21°,15°,12km/h,2mm,93%,70%,15:50:0,19°,Nuageux
+561,2021/07/14,20°,15°,15km/h,2mm,94%,82%,15:48:0,19°,Faibles averses de pluie
+562,2021/07/15,22°,17°,21km/h,1mm,81%,74%,15:46:0,22°,Couvert
+563,2021/07/16,21°,16°,17km/h,0mm,85%,53%,15:44:0,17°,Couvert
+564,2021/07/17,21°,15°,18km/h,0mm,89%,64%,15:41:0,19°,Couvert
+565,2021/07/18,27°,17°,18km/h,0mm,84%,2%,15:39:0,25°,"Ciel dégagé, pleinement ensoleillé"
+566,2021/07/19,25°,17°,19km/h,0mm,74%,19%,15:37:0,24°,Soleil et partiellement nuageux
+567,2021/07/20,25°,17°,15km/h,0mm,77%,2%,15:35:0,23°,Soleil et partiellement nuageux
+568,2021/07/21,28°,20°,14km/h,0mm,72%,5%,15:33:0,25°,Soleil et partiellement nuageux
+569,2021/07/22,29°,19°,14km/h,0mm,77%,11%,15:31:0,27°,Soleil et partiellement nuageux
+570,2021/07/23,28°,20°,21km/h,1mm,77%,40%,15:28:0,27°,Soleil et partiellement nuageux
+571,2021/07/24,26°,20°,13km/h,2mm,86%,63%,15:26:0,25°,Pluie légère et soleil
+572,2021/07/25,22°,17°,17km/h,9mm,81%,78%,15:23:0,21°,Faibles averses de pluie
+573,2021/07/26,24°,16°,13km/h,4mm,91%,60%,15:21:0,22°,Faibles averses de pluie
+574,2021/07/27,24°,18°,18km/h,1mm,81%,57%,15:18:0,22°,Soleil et partiellement nuageux
+575,2021/07/28,22°,16°,19km/h,1mm,85%,75%,15:15:0,21°,Pluie légère et soleil
+576,2021/07/29,24°,16°,14km/h,0mm,75%,15%,15:13:0,21°,Soleil et partiellement nuageux
+577,2021/07/30,19°,16°,19km/h,2mm,71%,53%,15:10:0,19°,Couvert
+578,2021/07/31,23°,15°,15km/h,0mm,78%,32%,15:7:0,21°,Soleil et partiellement nuageux
+579,2021/08/01,22°,15°,13km/h,1mm,80%,47%,15:5:0,21°,Soleil et partiellement nuageux
+580,2021/08/02,22°,16°,15km/h,2mm,80%,62%,15:1:0,20°,Soleil et partiellement nuageux
+581,2021/08/03,21°,15°,12km/h,13mm,93%,70%,14:59:0,19°,Soleil et partiellement nuageux
+582,2021/08/04,22°,17°,12km/h,1mm,70%,62%,14:56:0,18°,Soleil et partiellement nuageux
+583,2021/08/05,23°,15°,18km/h,1mm,81%,59%,14:53:0,21°,Soleil et partiellement nuageux
+584,2021/08/06,22°,16°,18km/h,2mm,84%,80%,14:50:0,20°,Pluie légère et soleil
+585,2021/08/07,20°,16°,21km/h,2mm,74%,54%,14:46:0,20°,Nuageux
+586,2021/08/08,23°,14°,21km/h,1mm,81%,51%,14:44:0,20°,Soleil et partiellement nuageux
+587,2021/08/09,21°,15°,18km/h,1mm,75%,46%,14:41:0,19°,Soleil et partiellement nuageux
+588,2021/08/10,24°,17°,12km/h,1mm,81%,61%,14:37:0,21°,Soleil et partiellement nuageux
+589,2021/08/11,29°,19°,3km/h,0mm,78%,25%,14:35:0,26°,Soleil et partiellement nuageux
+590,2021/08/12,32°,22°,7km/h,0mm,70%,13%,14:32:0,29°,Soleil et partiellement nuageux
+591,2021/08/13,31°,21°,10km/h,0mm,67%,9%,14:28:0,26°,Soleil et partiellement nuageux
+592,2021/08/14,33°,19°,6km/h,0mm,66%,4%,14:25:0,28°,Soleil et partiellement nuageux
+593,2021/08/15,33°,21°,6km/h,1mm,68%,18%,14:22:0,30°,Soleil et partiellement nuageux
+594,2021/08/16,25°,17°,16km/h,0mm,73%,50%,14:19:0,22°,Couvert
+595,2021/08/17,19°,15°,13km/h,0mm,78%,64%,14:16:0,18°,Couvert
+596,2021/08/18,22°,17°,13km/h,1mm,83%,88%,14:12:0,19°,Pluie légère et soleil
+597,2021/08/19,22°,18°,9km/h,0mm,71%,76%,14:9:0,20°,Nuageux
+598,2021/08/20,28°,17°,5km/h,0mm,67%,12%,14:6:0,25°,Soleil et partiellement nuageux
+599,2021/08/21,30°,19°,13km/h,2mm,68%,39%,14:3:0,28°,Soleil et partiellement nuageux
+600,2021/08/22,23°,18°,18km/h,1mm,81%,59%,14:0:0,22°,Soleil et partiellement nuageux
+601,2021/08/23,22°,16°,12km/h,1mm,85%,81%,13:56:0,18°,Pluie légère et soleil
+602,2021/08/24,24°,14°,22km/h,0mm,77%,16%,13:53:0,22°,Soleil et partiellement nuageux
+603,2021/08/25,25°,16°,20km/h,0mm,66%,9%,13:49:0,22°,Soleil et partiellement nuageux
+604,2021/08/26,23°,13°,19km/h,0mm,88%,27%,13:46:0,19°,Nuageux
+605,2021/08/27,20°,14°,15km/h,0mm,81%,66%,13:43:0,19°,Soleil et partiellement nuageux
+606,2021/08/28,20°,13°,18km/h,1mm,77%,73%,13:39:0,16°,Couvert
+607,2021/08/29,20°,13°,17km/h,0mm,87%,74%,13:36:0,18°,Soleil et partiellement nuageux
+608,2021/08/30,22°,14°,15km/h,0mm,86%,79%,13:32:0,18°,Couvert
+609,2021/08/31,25°,13°,17km/h,0mm,91%,32%,13:29:0,21°,Soleil et partiellement nuageux
+610,2021/09/01,26°,11°,16km/h,0mm,87%,7%,13:26:0,23°,"Ciel dégagé, pleinement ensoleillé"
+611,2021/09/02,29°,14°,22km/h,0mm,80%,0%,13:22:0,27°,"Ciel dégagé, pleinement ensoleillé"
+612,2021/09/03,29°,15°,10km/h,0mm,78%,21%,13:19:0,26°,Soleil et partiellement nuageux
+613,2021/09/04,28°,18°,6km/h,1mm,87%,64%,13:15:0,24°,Soleil et partiellement nuageux
+614,2021/09/05,31°,18°,8km/h,0mm,66%,19%,13:12:0,29°,Soleil et partiellement nuageux
+615,2021/09/06,30°,19°,10km/h,0mm,72%,14%,13:8:0,30°,Soleil et partiellement nuageux
+616,2021/09/07,31°,19°,18km/h,0mm,75%,2%,13:4:0,31°,"Ciel dégagé, pleinement ensoleillé"
+617,2021/09/08,33°,19°,9km/h,1mm,61%,18%,13:1:0,30°,Soleil et partiellement nuageux
+618,2021/09/09,28°,19°,16km/h,1mm,86%,69%,12:57:0,26°,Nuageux
+619,2021/09/10,23°,18°,14km/h,1mm,83%,77%,12:54:0,23°,Pluie légère et soleil
+620,2021/09/11,25°,17°,12km/h,0mm,71%,32%,12:51:0,22°,Soleil et partiellement nuageux
+621,2021/09/12,29°,15°,5km/h,0mm,67%,4%,12:47:0,25°,Soleil et partiellement nuageux
+622,2021/09/13,30°,15°,9km/h,0mm,66%,7%,12:44:0,25°,Soleil et partiellement nuageux
+623,2021/09/14,24°,18°,10km/h,1mm,79%,47%,12:39:0,22°,Soleil et partiellement nuageux
+624,2021/09/15,25°,17°,6km/h,1mm,88%,56%,12:36:0,23°,Couvert
+625,2021/09/16,24°,13°,8km/h,0mm,82%,10%,12:33:0,20°,Soleil et partiellement nuageux
+626,2021/09/17,23°,15°,8km/h,0mm,74%,42%,12:29:0,20°,Soleil et partiellement nuageux
+627,2021/09/18,21°,17°,12km/h,2mm,82%,46%,12:26:0,17°,Pluie légère et soleil
+628,2021/09/19,22°,16°,7km/h,1mm,74%,52%,12:22:0,21°,Nuageux
+629,2021/09/20,19°,14°,9km/h,2mm,94%,68%,12:18:0,15°,Pluie légère et soleil
+630,2021/09/21,22°,13°,13km/h,0mm,69%,22%,12:14:0,19°,Soleil et partiellement nuageux
+631,2021/09/22,23°,11°,10km/h,0mm,73%,4%,12:11:0,19°,Soleil et partiellement nuageux
+632,2021/09/23,26°,13°,9km/h,0mm,66%,2%,12:7:0,22°,"Ciel dégagé, pleinement ensoleillé"
+633,2021/09/24,24°,15°,6km/h,0mm,84%,26%,12:4:0,21°,Nuageux
+634,2021/09/25,26°,15°,7km/h,0mm,63%,20%,12:1:0,23°,Soleil et partiellement nuageux
+635,2021/09/26,25°,18°,18km/h,0mm,70%,45%,11:57:0,23°,Soleil et partiellement nuageux
+636,2021/09/27,21°,15°,17km/h,2mm,85%,61%,11:53:0,18°,Pluie légère et soleil
+637,2021/09/28,19°,12°,7km/h,0mm,82%,25%,11:49:0,16°,Soleil et partiellement nuageux
+638,2021/09/29,18°,12°,18km/h,1mm,87%,30%,11:46:0,17°,Soleil et partiellement nuageux
+639,2021/09/30,17°,9°,14km/h,0mm,63%,34%,11:42:0,14°,Nuageux
+640,2021/10/01,18°,11°,18km/h,1mm,49%,47%,11:39:0,17°,Nuageux
+641,2021/10/02,17°,12°,24km/h,3mm,89%,96%,11:35:0,16°,Couvert
+642,2021/10/03,17°,12°,34km/h,4mm,84%,72%,11:32:0,14°,Pluie légère et soleil
+643,2021/10/04,19°,12°,16km/h,0mm,76%,24%,11:28:0,17°,Soleil et partiellement nuageux
+644,2021/10/05,17°,12°,23km/h,1mm,87%,58%,11:25:0,13°,Faibles averses de pluie
+645,2021/10/06,19°,10°,21km/h,0mm,84%,42%,11:21:0,16°,Soleil et partiellement nuageux
+646,2021/10/07,18°,9°,10km/h,0mm,83%,23%,11:18:0,15°,Soleil et partiellement nuageux
+647,2021/10/08,19°,10°,13km/h,0mm,81%,4%,11:14:0,16°,Soleil et partiellement nuageux
+648,2021/10/09,21°,11°,15km/h,0mm,84%,0%,11:11:0,17°,"Ciel dégagé, pleinement ensoleillé"
+649,2021/10/10,18°,10°,9km/h,0mm,67%,8%,11:7:0,16°,Soleil et partiellement nuageux
+650,2021/10/11,18°,10°,13km/h,0mm,83%,28%,11:4:0,16°,Nuageux
+651,2021/10/12,15°,9°,15km/h,1mm,78%,47%,11:0:0,13°,Nuageux
+652,2021/10/13,15°,10°,10km/h,0mm,83%,53%,10:57:0,13°,"Ciel dégagé, pleinement ensoleillé"
+653,2021/10/14,18°,9°,3km/h,0mm,68%,10%,10:53:0,15°,"Ciel dégagé, pleinement ensoleillé"
+654,2021/10/15,16°,10°,6km/h,0mm,64%,48%,10:50:0,14°,Soleil et partiellement nuageux
+655,2021/10/16,19°,10°,8km/h,0mm,77%,13%,10:46:0,16°,"Ciel dégagé, pleinement ensoleillé"
+656,2021/10/17,17°,9°,6km/h,0mm,71%,45%,10:43:0,15°,Couvert
+657,2021/10/18,19°,11°,10km/h,0mm,70%,25%,10:39:0,17°,"Ciel dégagé, pleinement ensoleillé"
+658,2021/10/19,24°,15°,15km/h,2mm,93%,57%,10:36:0,22°,"Ciel dégagé, pleinement ensoleillé"
+659,2021/10/20,22°,18°,28km/h,1mm,68%,58%,10:32:0,19°,Couvert
+660,2021/10/21,16°,12°,29km/h,1mm,78%,63%,10:28:0,15°,Soleil et partiellement nuageux
+661,2021/10/22,12°,6°,13km/h,0mm,60%,32%,10:26:0,10°,Nuageux
+662,2021/10/23,17°,11°,5km/h,0mm,58%,33%,10:22:0,15°,"Ciel dégagé, pleinement ensoleillé"
+663,2021/10/24,18°,8°,12km/h,0mm,74%,5%,10:19:0,14°,"Ciel dégagé, pleinement ensoleillé"
+664,2021/10/25,16°,10°,13km/h,0mm,71%,79%,10:15:0,13°,Couvert
+665,2021/10/26,17°,10°,9km/h,1mm,89%,29%,10:12:0,14°,Soleil et partiellement nuageux
+666,2021/10/27,19°,11°,12km/h,0mm,79%,13%,10:9:0,16°,"Ciel dégagé, pleinement ensoleillé"
+667,2021/10/28,20°,10°,17km/h,0mm,78%,2%,10:5:0,19°,"Ciel dégagé, pleinement ensoleillé"
+668,2021/10/29,17°,12°,23km/h,1mm,72%,40%,10:2:0,15°,Soleil et partiellement nuageux
+669,2021/10/30,14°,10°,17km/h,1mm,92%,80%,9:59:0,13°,Faibles averses de pluie
+670,2021/10/31,18°,10°,26km/h,3mm,92%,66%,9:56:0,16°,Soleil et partiellement nuageux
+671,2021/11/01,15°,10°,23km/h,1mm,76%,41%,9:52:0,13°,Soleil et partiellement nuageux
+672,2021/11/02,12°,10°,22km/h,1mm,84%,95%,9:49:0,9°,Faibles averses de pluie
+673,2021/11/03,14°,7°,4km/h,0mm,79%,11%,9:46:0,12°,"Ciel dégagé, pleinement ensoleillé"
+674,2021/11/04,12°,6°,19km/h,1mm,82%,49%,9:42:0,10°,Nuageux
+675,2021/11/05,12°,8°,11km/h,0mm,78%,61%,9:40:0,10°,"Ciel dégagé, pleinement ensoleillé"
+676,2021/11/06,13°,6°,8km/h,0mm,85%,39%,9:36:0,10°,"Ciel dégagé, pleinement ensoleillé"
+677,2021/11/07,13°,10°,15km/h,0mm,86%,57%,9:34:0,13°,Couvert
+678,2021/11/08,13°,9°,12km/h,0mm,66%,47%,9:30:0,11°,Soleil et partiellement nuageux
+679,2021/11/09,14°,6°,6km/h,0mm,79%,4%,9:27:0,11°,"Ciel dégagé, pleinement ensoleillé"
+680,2021/11/10,15°,6°,5km/h,0mm,78%,1%,9:25:0,13°,"Ciel dégagé, pleinement ensoleillé"
+681,2021/11/11,13°,6°,5km/h,0mm,73%,24%,9:21:0,10°,Couvert
+682,2021/11/12,15°,6°,9km/h,0mm,64%,12%,9:19:0,12°,"Ciel dégagé, pleinement ensoleillé"
+683,2021/11/13,12°,11°,15km/h,1mm,88%,84%,9:16:0,11°,Couvert
+684,2021/11/14,13°,10°,17km/h,0mm,89%,70%,9:13:0,11°,Soleil et partiellement nuageux
+685,2021/11/15,12°,7°,13km/h,0mm,90%,32%,9:10:0,10°,"Ciel dégagé, pleinement ensoleillé"
+686,2021/11/16,10°,6°,8km/h,0mm,90%,59%,9:8:0,9°,Nuageux
+687,2021/11/17,12°,9°,10km/h,0mm,90%,70%,9:5:0,11°,Couvert
+688,2021/11/18,12°,6°,8km/h,0mm,85%,64%,9:3:0,9°,Couvert
+689,2021/11/19,12°,9°,4km/h,0mm,87%,80%,9:0:0,11°,Couvert
+690,2021/11/20,16°,10°,5km/h,0mm,77%,32%,8:58:0,13°,"Ciel dégagé, pleinement ensoleillé"
+691,2021/11/21,9°,8°,13km/h,1mm,90%,62%,8:55:0,8°,Pluie légère et soleil
+692,2021/11/22,9°,4°,23km/h,1mm,78%,16%,8:53:0,9°,"Ciel dégagé, pleinement ensoleillé"
+693,2021/11/23,9°,2°,17km/h,0mm,73%,0%,8:50:0,9°,"Ciel dégagé, pleinement ensoleillé"
+694,2021/11/24,8°,3°,11km/h,0mm,82%,5%,8:48:0,6°,"Ciel dégagé, pleinement ensoleillé"
+695,2021/11/25,7°,2°,9km/h,0mm,87%,65%,8:45:0,6°,Couvert
+696,2021/11/26,7°,4°,18km/h,0mm,89%,62%,8:43:0,5°,Nuageux
+697,2021/11/27,5°,4°,17km/h,3mm,87%,95%,8:42:0,4°,Neige abondante en continue
+698,2021/11/28,6°,2°,12km/h,1mm,84%,57%,8:39:0,3°,Couvert
+699,2021/11/29,6°,2°,12km/h,0mm,80%,32%,8:37:0,4°,"Ciel dégagé, pleinement ensoleillé"
+700,2021/11/30,8°,2°,22km/h,0mm,79%,82%,8:36:0,5°,Couvert
+701,2021/12/01,10°,8°,28km/h,1mm,87%,90%,8:33:0,10°,Faibles averses de pluie
+702,2021/12/02,6°,4°,15km/h,1mm,78%,69%,8:32:0,5°,Soleil et partiellement nuageux
+703,2021/12/03,4°,2°,22km/h,1mm,79%,67%,8:30:0,4°,Nuageux
+704,2021/12/04,11°,8°,23km/h,2mm,91%,93%,8:29:0,9°,Foyers orageux à proximité
+705,2021/12/05,6°,4°,15km/h,1mm,90%,80%,8:28:0,5°,Nuageux
+706,2021/12/06,6°,5°,18km/h,2mm,84%,80%,8:25:0,6°,Nuageux
+707,2021/12/07,6°,3°,19km/h,1mm,84%,49%,8:24:0,5°,"Ciel dégagé, pleinement ensoleillé"
+708,2021/12/08,7°,4°,17km/h,1mm,95%,59%,8:23:0,7°,"Ciel dégagé, pleinement ensoleillé"
+709,2021/12/09,7°,3°,18km/h,1mm,78%,60%,8:22:0,5°,Couvert
+710,2021/12/10,8°,6°,24km/h,2mm,81%,76%,8:21:0,7°,Soleil et partiellement nuageux
+711,2021/12/11,8°,4°,12km/h,0mm,81%,53%,8:20:0,6°,Soleil et partiellement nuageux
+712,2021/12/12,12°,6°,13km/h,1mm,96%,71%,8:19:0,10°,"Ciel dégagé, pleinement ensoleillé"
+713,2021/12/13,13°,5°,7km/h,0mm,95%,16%,8:18:0,8°,"Ciel dégagé, pleinement ensoleillé"
+714,2021/12/14,11°,5°,4km/h,0mm,89%,13%,8:18:0,9°,"Ciel dégagé, pleinement ensoleillé"
+715,2021/12/15,12°,8°,6km/h,0mm,96%,56%,8:17:0,10°,Nuageux
+716,2021/12/16,11°,5°,10km/h,0mm,97%,20%,8:16:0,7°,Nuageux
+717,2021/12/17,11°,5°,15km/h,0mm,91%,4%,8:16:0,8°,"Ciel dégagé, pleinement ensoleillé"
+718,2021/12/18,11°,5°,15km/h,0mm,90%,9%,8:16:0,7°,"Ciel dégagé, pleinement ensoleillé"
+719,2021/12/19,8°,4°,12km/h,0mm,96%,38%,8:15:0,6°,Nuageux
+720,2021/12/20,7°,4°,17km/h,0mm,87%,42%,8:15:0,5°,Couvert
+721,2021/12/21,7°,0°,12km/h,0mm,67%,0%,8:15:0,3°,"Ciel dégagé, pleinement ensoleillé"
+722,2021/12/22,6°,-1°,9km/h,0mm,67%,28%,8:15:0,4°,"Ciel dégagé, pleinement ensoleillé"
+723,2021/12/23,8°,1°,12km/h,0mm,81%,26%,8:15:0,6°,"Ciel dégagé, pleinement ensoleillé"
+724,2021/12/24,9°,7°,11km/h,1mm,97%,96%,8:15:0,9°,Couvert
+725,2021/12/25,10°,8°,9km/h,3mm,98%,82%,8:16:0,9°,Bruine légère
+726,2021/12/26,10°,9°,16km/h,1mm,96%,94%,8:16:0,9°,Couvert
+727,2021/12/27,11°,8°,17km/h,2mm,92%,98%,8:17:0,8°,Faible pluie en continue
+728,2021/12/28,12°,11°,26km/h,1mm,84%,93%,8:17:0,11°,Couvert
+729,2021/12/29,15°,12°,23km/h,1mm,94%,100%,8:18:0,14°,Pluie légère et soleil
+730,2021/12/30,14°,13°,14km/h,1mm,91%,85%,8:19:0,13°,Nuageux
+731,2021/12/31,16°,9°,12km/h,0mm,90%,4%,8:20:0,12°,"Ciel dégagé, pleinement ensoleillé"
+732,2022/01/01,15°,9°,12km/h,0mm,94%,15%,8:21:0,13°,"Ciel dégagé, pleinement ensoleillé"
+733,2022/01/02,14°,11°,22km/h,1mm,83%,72%,8:22:0,13°,Couvert
+734,2022/01/03,12°,10°,18km/h,3mm,87%,89%,8:23:0,11°,Couvert
+735,2022/01/04,15°,7°,32km/h,9mm,85%,98%,8:24:0,14°,Bruine légère
+736,2022/01/05,6°,3°,18km/h,1mm,68%,72%,8:26:0,5°,Nuageux
+737,2022/01/06,7°,3°,11km/h,0mm,76%,52%,8:27:0,6°,"Ciel dégagé, pleinement ensoleillé"
+738,2022/01/07,8°,5°,21km/h,1mm,87%,79%,8:28:0,6°,Nuageux
+739,2022/01/08,10°,4°,29km/h,4mm,92%,94%,8:30:0,7°,Bruine légère
+740,2022/01/09,7°,4°,19km/h,1mm,78%,54%,8:32:0,5°,Soleil et partiellement nuageux
+741,2022/01/10,8°,4°,7km/h,1mm,92%,81%,8:33:0,6°,Nuageux
+742,2022/01/11,6°,1°,5km/h,0mm,83%,25%,8:35:0,4°,"Ciel dégagé, pleinement ensoleillé"
+743,2022/01/12,5°,3°,9km/h,0mm,75%,53%,8:37:0,4°,Couvert
+744,2022/01/13,9°,1°,12km/h,0mm,87%,2%,8:39:0,5°,"Ciel dégagé, pleinement ensoleillé"
+745,2022/01/14,11°,2°,6km/h,0mm,78%,1%,8:41:0,7°,"Ciel dégagé, pleinement ensoleillé"
+746,2022/01/15,8°,3°,5km/h,0mm,86%,28%,8:43:0,5°,Couvert
+747,2022/01/16,7°,2°,10km/h,0mm,94%,48%,8:45:0,6°,Nuageux
+748,2022/01/17,11°,6°,8km/h,0mm,97%,45%,8:48:0,9°,"Ciel dégagé, pleinement ensoleillé"
+749,2022/01/18,11°,2°,12km/h,0mm,90%,3%,8:50:0,6°,"Ciel dégagé, pleinement ensoleillé"
+750,2022/01/19,7°,1°,10km/h,1mm,91%,40%,8:53:0,5°,"Ciel dégagé, pleinement ensoleillé"
+751,2022/01/20,6°,3°,17km/h,1mm,88%,59%,8:54:0,4°,Soleil et partiellement nuageux
+752,2022/01/21,6°,1°,15km/h,0mm,90%,57%,8:57:0,4°,Soleil et partiellement nuageux
+753,2022/01/22,9°,1°,9km/h,0mm,85%,7%,8:59:0,6°,"Ciel dégagé, pleinement ensoleillé"
+754,2022/01/23,7°,3°,12km/h,0mm,86%,58%,9:2:0,5°,Couvert
+755,2022/01/24,10°,1°,7km/h,0mm,91%,4%,9:5:0,6°,"Ciel dégagé, pleinement ensoleillé"
+756,2022/01/25,11°,2°,6km/h,0mm,89%,1%,9:8:0,7°,"Ciel dégagé, pleinement ensoleillé"
+757,2022/01/26,10°,1°,5km/h,0mm,86%,2%,9:10:0,6°,"Ciel dégagé, pleinement ensoleillé"
+758,2022/01/27,9°,1°,12km/h,0mm,91%,39%,9:13:0,6°,"Ciel dégagé, pleinement ensoleillé"
+759,2022/01/28,10°,5°,7km/h,0mm,96%,36%,9:16:0,8°,"Ciel dégagé, pleinement ensoleillé"
+760,2022/01/29,12°,5°,16km/h,0mm,90%,49%,9:18:0,10°,Soleil et partiellement nuageux
+761,2022/01/30,10°,4°,9km/h,0mm,85%,50%,9:22:0,6°,"Ciel dégagé, pleinement ensoleillé"
+762,2022/01/31,9°,6°,28km/h,1mm,70%,61%,9:25:0,7°,Nuageux
+763,2022/02/01,9°,3°,18km/h,1mm,96%,80%,9:27:0,6°,Couvert
+764,2022/02/02,11°,9°,19km/h,0mm,85%,92%,9:31:0,10°,Nuageux
+765,2022/02/03,9°,6°,14km/h,0mm,86%,83%,9:34:0,7°,Couvert
+766,2022/02/04,10°,8°,19km/h,1mm,81%,74%,9:37:0,10°,Soleil et partiellement nuageux
+767,2022/02/05,9°,4°,15km/h,0mm,83%,35%,9:40:0,7°,Soleil et partiellement nuageux
+768,2022/02/06,11°,7°,32km/h,1mm,79%,95%,9:43:0,10°,Couvert
+769,2022/02/07,10°,4°,13km/h,1mm,71%,17%,9:46:0,7°,"Ciel dégagé, pleinement ensoleillé"
+770,2022/02/08,9°,4°,9km/h,0mm,78%,63%,9:50:0,7°,Nuageux
+771,2022/02/09,14°,4°,6km/h,0mm,88%,2%,9:52:0,11°,"Ciel dégagé, pleinement ensoleillé"
+772,2022/02/10,11°,5°,15km/h,0mm,86%,47%,9:56:0,9°,Nuageux
+773,2022/02/11,9°,3°,13km/h,1mm,81%,23%,9:59:0,5°,Soleil et partiellement nuageux
+774,2022/02/12,8°,2°,11km/h,0mm,75%,32%,10:2:0,5°,"Ciel dégagé, pleinement ensoleillé"
+775,2022/02/13,12°,2°,27km/h,1mm,72%,52%,10:6:0,8°,Soleil et partiellement nuageux
+776,2022/02/14,11°,8°,17km/h,1mm,84%,84%,10:8:0,9°,Faibles averses de pluie
+777,2022/02/15,10°,4°,19km/h,1mm,85%,56%,10:12:0,8°,Soleil et partiellement nuageux
+778,2022/02/16,14°,10°,23km/h,3mm,92%,100%,10:16:0,12°,Pluie légère et soleil
+779,2022/02/17,13°,8°,27km/h,1mm,69%,48%,10:18:0,11°,"Ciel dégagé, pleinement ensoleillé"
+780,2022/02/18,13°,11°,32km/h,1mm,91%,82%,10:22:0,13°,Couvert
+781,2022/02/19,10°,4°,23km/h,1mm,69%,51%,10:26:0,8°,"Ciel dégagé, pleinement ensoleillé"
+782,2022/02/20,12°,8°,24km/h,0mm,84%,95%,10:29:0,10°,Nuageux
+783,2022/02/21,11°,4°,32km/h,2mm,87%,78%,10:33:0,8°,Faibles averses de pluie
+784,2022/02/22,10°,6°,18km/h,1mm,86%,94%,10:35:0,9°,Couvert
+785,2022/02/23,12°,5°,9km/h,1mm,93%,55%,10:39:0,9°,Nuageux
+786,2022/02/24,12°,7°,24km/h,1mm,81%,71%,10:43:0,11°,Nuageux
+787,2022/02/25,9°,3°,21km/h,0mm,75%,28%,10:46:0,8°,Soleil et partiellement nuageux
+788,2022/02/26,11°,3°,15km/h,0mm,75%,0%,10:50:0,7°,"Ciel dégagé, pleinement ensoleillé"
+789,2022/02/27,12°,1°,15km/h,0mm,68%,2%,10:53:0,7°,"Ciel dégagé, pleinement ensoleillé"
+790,2022/02/28,12°,2°,9km/h,0mm,59%,12%,10:57:0,9°,Nuageux
+791,2022/03/01,11°,4°,7km/h,0mm,68%,62%,11:1:0,8°,Couvert
+792,2022/03/02,9°,6°,13km/h,2mm,92%,97%,11:5:0,7°,Bruine légère
+793,2022/03/03,12°,6°,9km/h,0mm,91%,74%,11:8:0,8°,Couvert
+794,2022/03/04,13°,5°,13km/h,0mm,54%,24%,11:12:0,10°,"Ciel dégagé, pleinement ensoleillé"
+795,2022/03/05,12°,3°,12km/h,0mm,56%,0%,11:15:0,9°,"Ciel dégagé, pleinement ensoleillé"
+796,2022/03/06,11°,3°,16km/h,1mm,68%,17%,11:19:0,7°,"Ciel dégagé, pleinement ensoleillé"
+797,2022/03/07,10°,1°,15km/h,0mm,67%,3%,11:23:0,6°,"Ciel dégagé, pleinement ensoleillé"
+798,2022/03/08,13°,1°,14km/h,0mm,61%,1%,11:26:0,8°,"Ciel dégagé, pleinement ensoleillé"
+799,2022/03/09,16°,5°,14km/h,0mm,93%,12%,11:31:0,12°,Soleil et partiellement nuageux
+800,2022/03/10,15°,7°,12km/h,0mm,69%,33%,11:34:0,13°,"Ciel dégagé, pleinement ensoleillé"
+801,2022/03/11,11°,9°,19km/h,1mm,81%,87%,11:38:0,10°,Bruine légère
+802,2022/03/12,11°,7°,14km/h,0mm,90%,80%,11:41:0,9°,Couvert
+803,2022/03/13,9°,7°,17km/h,2mm,89%,85%,11:45:0,7°,Faible pluie en continue
+804,2022/03/14,12°,4°,15km/h,1mm,93%,47%,11:48:0,9°,"Ciel dégagé, pleinement ensoleillé"
+805,2022/03/15,15°,9°,10km/h,2mm,94%,97%,11:52:0,10°,Bruine légère
+806,2022/03/16,19°,9°,11km/h,0mm,92%,17%,11:55:0,16°,"Ciel dégagé, pleinement ensoleillé"
+807,2022/03/17,12°,9°,21km/h,0mm,78%,63%,11:59:0,10°,Couvert
+808,2022/03/18,17°,5°,26km/h,0mm,65%,4%,12:2:0,14°,"Ciel dégagé, pleinement ensoleillé"
+809,2022/03/19,18°,6°,25km/h,0mm,75%,1%,12:6:0,15°,"Ciel dégagé, pleinement ensoleillé"
+810,2022/03/20,16°,5°,15km/h,1mm,84%,59%,12:9:0,12°,Bruine légère partielle
+811,2022/03/21,16°,9°,14km/h,0mm,81%,50%,12:13:0,14°,"Ciel dégagé, pleinement ensoleillé"
+812,2022/03/22,19°,8°,12km/h,0mm,72%,4%,12:16:0,14°,"Ciel dégagé, pleinement ensoleillé"
+813,2022/03/23,19°,8°,10km/h,0mm,56%,4%,12:20:0,15°,"Ciel dégagé, pleinement ensoleillé"
+814,2022/03/24,19°,9°,12km/h,0mm,74%,5%,12:23:0,16°,"Ciel dégagé, pleinement ensoleillé"
+815,2022/03/25,20°,8°,14km/h,0mm,61%,0%,12:27:0,16°,"Ciel dégagé, pleinement ensoleillé"
+816,2022/03/26,21°,8°,21km/h,0mm,62%,1%,12:31:0,19°,"Ciel dégagé, pleinement ensoleillé"
+817,2022/03/27,21°,9°,14km/h,0mm,66%,1%,12:35:0,17°,"Ciel dégagé, pleinement ensoleillé"
+818,2022/03/28,22°,10°,6km/h,0mm,68%,8%,12:38:0,18°,"Ciel dégagé, pleinement ensoleillé"
+819,2022/03/29,19°,12°,12km/h,1mm,73%,86%,12:42:0,17°,Nuageux
+820,2022/03/30,12°,6°,20km/h,1mm,86%,94%,12:45:0,6°,Couvert
+821,2022/03/31,8°,7°,10km/h,1mm,83%,94%,12:49:0,8°,Pluie légère et soleil
+822,2022/04/01,3°,1°,25km/h,3mm,96%,100%,12:52:0,2°,Fortes chutes de neige
+823,2022/04/02,4°,1°,23km/h,1mm,89%,96%,12:56:0,3°,Faibles chûtes de neige
+824,2022/04/03,9°,0°,17km/h,0mm,72%,27%,12:59:0,8°,"Ciel dégagé, pleinement ensoleillé"
+825,2022/04/04,11°,2°,22km/h,0mm,69%,69%,13:3:0,9°,Couvert
+826,2022/04/05,14°,7°,15km/h,0mm,95%,93%,13:7:0,10°,Couvert
+827,2022/04/06,14°,6°,26km/h,1mm,85%,77%,13:11:0,11°,Couvert
+828,2022/04/07,11°,9°,32km/h,2mm,83%,100%,13:14:0,7°,Faible pluie en continue
+829,2022/04/08,9°,4°,16km/h,8mm,95%,92%,13:18:0,3°,Pluie modérée en continue
+830,2022/04/09,11°,4°,16km/h,1mm,88%,56%,13:21:0,10°,Pluie légère et soleil
+831,2022/04/10,15°,3°,6km/h,0mm,73%,13%,13:25:0,11°,"Ciel dégagé, pleinement ensoleillé"
+832,2022/04/11,16°,5°,19km/h,0mm,68%,13%,13:28:0,13°,"Ciel dégagé, pleinement ensoleillé"
+833,2022/04/12,20°,9°,13km/h,0mm,80%,45%,13:32:0,18°,"Ciel dégagé, pleinement ensoleillé"
+834,2022/04/13,18°,12°,9km/h,0mm,84%,80%,13:35:0,12°,Couvert
+835,2022/04/14,23°,10°,13km/h,0mm,91%,12%,13:39:0,18°,"Ciel dégagé, pleinement ensoleillé"
+836,2022/04/15,21°,11°,9km/h,0mm,87%,19%,13:42:0,19°,"Ciel dégagé, pleinement ensoleillé"
+837,2022/04/16,20°,11°,17km/h,0mm,78%,6%,13:46:0,18°,"Ciel dégagé, pleinement ensoleillé"
+838,2022/04/17,19°,7°,13km/h,0mm,61%,20%,13:49:0,16°,Soleil et partiellement nuageux
+839,2022/04/18,19°,8°,6km/h,0mm,65%,74%,13:53:0,16°,Couvert
+840,2022/04/19,19°,9°,12km/h,0mm,83%,27%,13:56:0,16°,Soleil et partiellement nuageux
+841,2022/04/20,18°,9°,19km/h,0mm,81%,53%,14:0:0,17°,Couvert
+842,2022/04/21,17°,7°,18km/h,0mm,63%,11%,14:3:0,17°,"Ciel dégagé, pleinement ensoleillé"
+843,2022/04/22,17°,8°,17km/h,0mm,82%,34%,14:7:0,16°,Soleil et partiellement nuageux
+844,2022/04/23,17°,10°,25km/h,1mm,77%,90%,14:9:0,17°,Couvert
+845,2022/04/24,13°,10°,14km/h,1mm,90%,86%,14:13:0,13°,Couvert
+846,2022/04/25,16°,9°,10km/h,1mm,76%,43%,14:16:0,14°,Pluie légère et soleil
+847,2022/04/26,17°,8°,14km/h,0mm,82%,44%,14:20:0,13°,"Ciel dégagé, pleinement ensoleillé"
+848,2022/04/27,18°,6°,19km/h,0mm,78%,11%,14:23:0,16°,"Ciel dégagé, pleinement ensoleillé"
+849,2022/04/28,20°,8°,20km/h,0mm,81%,4%,14:27:0,21°,"Ciel dégagé, pleinement ensoleillé"
+850,2022/04/29,19°,10°,12km/h,0mm,76%,62%,14:29:0,16°,Couvert
+851,2022/04/30,18°,7°,18km/h,0mm,80%,3%,14:33:0,18°,"Ciel dégagé, pleinement ensoleillé"
+852,2022/05/01,18°,8°,10km/h,0mm,78%,59%,14:36:0,15°,Couvert
+853,2022/05/02,17°,9°,14km/h,0mm,69%,58%,14:40:0,16°,Nuageux
+854,2022/05/03,19°,10°,16km/h,0mm,69%,57%,14:42:0,17°,Soleil et partiellement nuageux
+855,2022/05/04,19°,11°,12km/h,0mm,78%,42%,14:45:0,17°,"Ciel dégagé, pleinement ensoleillé"
+856,2022/05/05,21°,10°,11km/h,0mm,85%,40%,14:48:0,19°,"Ciel dégagé, pleinement ensoleillé"
+857,2022/05/06,22°,10°,10km/h,0mm,85%,37%,14:51:0,19°,Soleil et partiellement nuageux
+858,2022/05/07,20°,12°,10km/h,1mm,70%,68%,14:55:0,18°,Pluie légère et soleil
+859,2022/05/08,19°,10°,14km/h,1mm,97%,73%,14:57:0,15°,Couvert
+860,2022/05/09,25°,11°,8km/h,0mm,82%,25%,15:1:0,22°,"Ciel dégagé, pleinement ensoleillé"
+861,2022/05/10,25°,15°,19km/h,0mm,76%,29%,15:3:0,22°,Soleil et partiellement nuageux
+862,2022/05/11,24°,14°,20km/h,0mm,73%,12%,15:6:0,22°,"Ciel dégagé, pleinement ensoleillé"
+863,2022/05/12,22°,12°,10km/h,0mm,79%,31%,15:9:0,18°,Soleil et partiellement nuageux
+864,2022/05/13,23°,11°,10km/h,0mm,78%,8%,15:11:0,19°,"Ciel dégagé, pleinement ensoleillé"
+865,2022/05/14,25°,11°,9km/h,0mm,82%,12%,15:15:0,22°,"Ciel dégagé, pleinement ensoleillé"
+866,2022/05/15,25°,13°,15km/h,1mm,74%,45%,15:17:0,21°,Soleil et partiellement nuageux
+867,2022/05/16,25°,15°,13km/h,3mm,95%,49%,15:19:0,22°,Soleil et partiellement nuageux
+868,2022/05/17,28°,16°,10km/h,0mm,83%,31%,15:23:0,25°,"Ciel dégagé, pleinement ensoleillé"
+869,2022/05/18,28°,17°,10km/h,0mm,84%,17%,15:25:0,26°,"Ciel dégagé, pleinement ensoleillé"
+870,2022/05/19,25°,18°,16km/h,1mm,96%,45%,15:27:0,23°,Foyers orageux à proximité
+871,2022/05/20,23°,16°,19km/h,2mm,88%,61%,15:29:0,23°,Faibles averses de pluie
+872,2022/05/21,26°,12°,10km/h,0mm,74%,4%,15:32:0,20°,"Ciel dégagé, pleinement ensoleillé"
+873,2022/05/22,24°,13°,17km/h,1mm,81%,45%,15:34:0,21°,Soleil et partiellement nuageux
+874,2022/05/23,19°,16°,22km/h,3mm,97%,75%,15:36:0,13°,Faibles averses de pluie
+875,2022/05/24,19°,10°,16km/h,1mm,96%,52%,15:38:0,17°,Nuageux
+876,2022/05/25,21°,10°,18km/h,0mm,81%,26%,15:41:0,18°,"Ciel dégagé, pleinement ensoleillé"
+877,2022/05/26,23°,13°,12km/h,0mm,82%,41%,15:43:0,20°,"Ciel dégagé, pleinement ensoleillé"
+878,2022/05/27,24°,12°,13km/h,0mm,86%,32%,15:45:0,18°,Couvert
+879,2022/05/28,20°,10°,13km/h,0mm,77%,15%,15:47:0,18°,"Ciel dégagé, pleinement ensoleillé"
+880,2022/05/29,16°,7°,15km/h,0mm,81%,32%,15:49:0,11°,Nuageux
+881,2022/05/30,19°,7°,13km/h,0mm,78%,22%,15:51:0,17°,"Ciel dégagé, pleinement ensoleillé"
+882,2022/05/31,21°,13°,11km/h,0mm,59%,32%,15:52:0,19°,Soleil et partiellement nuageux
+883,2022/06/01,23°,11°,8km/h,0mm,78%,10%,15:54:0,19°,"Ciel dégagé, pleinement ensoleillé"
+884,2022/06/02,24°,11°,16km/h,0mm,74%,14%,15:56:0,23°,Soleil et partiellement nuageux
+885,2022/06/03,25°,14°,8km/h,1mm,71%,28%,15:57:0,23°,"Ciel dégagé, pleinement ensoleillé"
+886,2022/06/04,29°,16°,13km/h,2mm,94%,47%,15:59:0,29°,"Ciel dégagé, pleinement ensoleillé"
+887,2022/06/05,25°,17°,15km/h,4mm,95%,68%,16:0:0,23°,Foyers orageux à proximité
+888,2022/06/06,23°,13°,15km/h,0mm,84%,36%,16:1:0,20°,Soleil et partiellement nuageux
+889,2022/06/07,22°,14°,15km/h,1mm,94%,79%,16:2:0,18°,Pluie légère et soleil
+890,2022/06/08,22°,14°,19km/h,3mm,97%,70%,16:4:0,16°,Faibles averses de pluie
+891,2022/06/09,20°,12°,21km/h,1mm,86%,47%,16:5:0,17°,Faibles averses de pluie
+892,2022/06/10,29°,14°,13km/h,0mm,82%,37%,16:5:0,23°,"Ciel dégagé, pleinement ensoleillé"
+893,2022/06/11,28°,16°,9km/h,0mm,85%,25%,16:7:0,24°,Nuageux
+894,2022/06/12,27°,13°,12km/h,0mm,73%,23%,16:7:0,23°,"Ciel dégagé, pleinement ensoleillé"
+895,2022/06/13,26°,12°,10km/h,0mm,79%,1%,16:8:0,22°,"Ciel dégagé, pleinement ensoleillé"
+896,2022/06/14,28°,13°,13km/h,0mm,72%,24%,16:9:0,23°,Couvert
+897,2022/06/15,33°,15°,9km/h,0mm,71%,7%,16:9:0,30°,"Ciel dégagé, pleinement ensoleillé"
+898,2022/06/16,31°,17°,11km/h,0mm,74%,6%,16:9:0,29°,"Ciel dégagé, pleinement ensoleillé"
+899,2022/06/17,36°,18°,12km/h,0mm,65%,4%,16:10:0,33°,"Ciel dégagé, pleinement ensoleillé"
+900,2022/06/18,42°,23°,11km/h,0mm,52%,5%,16:10:0,38°,"Ciel dégagé, pleinement ensoleillé"
+901,2022/06/19,33°,19°,12km/h,0mm,77%,12%,16:10:0,32°,"Ciel dégagé, pleinement ensoleillé"
+902,2022/06/20,27°,13°,15km/h,1mm,83%,46%,16:11:0,22°,Soleil et partiellement nuageux
+903,2022/06/21,29°,15°,11km/h,0mm,64%,24%,16:11:0,24°,"Ciel dégagé, pleinement ensoleillé"
+904,2022/06/22,30°,17°,8km/h,1mm,81%,28%,16:11:0,28°,Pluie légère et soleil
+905,2022/06/23,31°,18°,11km/h,1mm,84%,32%,16:10:0,29°,"Ciel dégagé, pleinement ensoleillé"
+906,2022/06/24,24°,16°,21km/h,1mm,95%,64%,16:10:0,22°,Pluie légère et soleil
+907,2022/06/25,19°,16°,15km/h,2mm,92%,69%,16:10:0,18°,Nuageux
+908,2022/06/26,21°,12°,9km/h,0mm,84%,35%,16:9:0,19°,Soleil et partiellement nuageux
+909,2022/06/27,25°,15°,13km/h,0mm,85%,31%,16:9:0,21°,"Ciel dégagé, pleinement ensoleillé"
+910,2022/06/28,29°,13°,11km/h,0mm,71%,10%,16:8:0,24°,"Ciel dégagé, pleinement ensoleillé"
+911,2022/06/29,28°,16°,10km/h,0mm,59%,13%,16:8:0,23°,"Ciel dégagé, pleinement ensoleillé"
+912,2022/06/30,18°,13°,15km/h,6mm,96%,74%,16:7:0,14°,Faible pluie en continue
+913,2022/07/01,23°,11°,14km/h,1mm,85%,33%,16:7:0,20°,Soleil et partiellement nuageux
+914,2022/07/02,29°,14°,9km/h,0mm,68%,8%,16:5:0,24°,"Ciel dégagé, pleinement ensoleillé"
+915,2022/07/03,27°,14°,10km/h,0mm,75%,11%,16:4:0,24°,"Ciel dégagé, pleinement ensoleillé"
+916,2022/07/04,27°,14°,9km/h,0mm,74%,7%,16:4:0,24°,"Ciel dégagé, pleinement ensoleillé"
+917,2022/07/05,27°,14°,10km/h,0mm,71%,9%,16:2:0,24°,"Ciel dégagé, pleinement ensoleillé"
+918,2022/07/06,27°,13°,10km/h,0mm,63%,14%,16:1:0,24°,"Ciel dégagé, pleinement ensoleillé"
+919,2022/07/07,25°,16°,20km/h,0mm,79%,23%,15:59:0,22°,Soleil et partiellement nuageux
+920,2022/07/08,27°,11°,15km/h,0mm,81%,3%,15:59:0,22°,"Ciel dégagé, pleinement ensoleillé"
+921,2022/07/09,31°,17°,14km/h,0mm,65%,10%,15:57:0,29°,"Ciel dégagé, pleinement ensoleillé"
+922,2022/07/10,27°,13°,18km/h,0mm,74%,6%,15:56:0,24°,"Ciel dégagé, pleinement ensoleillé"
+923,2022/07/11,31°,16°,14km/h,0mm,73%,6%,15:54:0,26°,"Ciel dégagé, pleinement ensoleillé"
+924,2022/07/12,37°,19°,6km/h,0mm,54%,23%,15:52:0,32°,"Ciel dégagé, pleinement ensoleillé"
+925,2022/07/13,40°,22°,12km/h,0mm,39%,11%,15:50:0,38°,"Ciel dégagé, pleinement ensoleillé"
+926,2022/07/14,33°,21°,18km/h,0mm,56%,7%,15:49:0,33°,"Ciel dégagé, pleinement ensoleillé"
+927,2022/07/15,30°,15°,12km/h,0mm,58%,2%,15:47:0,25°,"Ciel dégagé, pleinement ensoleillé"
+928,2022/07/16,33°,16°,12km/h,0mm,51%,3%,15:45:0,30°,"Ciel dégagé, pleinement ensoleillé"
+929,2022/07/17,36°,17°,13km/h,0mm,54%,3%,15:43:0,32°,"Ciel dégagé, pleinement ensoleillé"
+930,2022/07/18,43°,22°,12km/h,0mm,30%,1%,15:41:0,40°,"Ciel dégagé, pleinement ensoleillé"
+931,2022/07/19,42°,24°,21km/h,0mm,37%,7%,15:39:0,41°,"Ciel dégagé, pleinement ensoleillé"
+932,2022/07/20,27°,20°,18km/h,3mm,83%,59%,15:37:0,18°,Faibles averses de pluie
+933,2022/07/21,30°,18°,10km/h,0mm,82%,38%,15:34:0,27°,Soleil et partiellement nuageux
+934,2022/07/22,30°,17°,10km/h,1mm,77%,30%,15:32:0,24°,Soleil et partiellement nuageux
+935,2022/07/23,31°,18°,11km/h,1mm,93%,48%,15:30:0,23°,Soleil et partiellement nuageux
+936,2022/07/24,36°,19°,10km/h,0mm,74%,8%,15:27:0,33°,"Ciel dégagé, pleinement ensoleillé"
+937,2022/07/25,32°,20°,24km/h,1mm,66%,33%,15:25:0,28°,Soleil et partiellement nuageux
+938,2022/07/26,26°,16°,12km/h,0mm,79%,40%,15:22:0,21°,Couvert
+939,2022/07/27,29°,14°,15km/h,0mm,62%,9%,15:20:0,24°,"Ciel dégagé, pleinement ensoleillé"
+940,2022/07/28,30°,16°,9km/h,0mm,46%,48%,15:17:0,26°,Soleil et partiellement nuageux
+941,2022/07/29,31°,19°,9km/h,0mm,50%,42%,15:14:0,28°,"Ciel dégagé, pleinement ensoleillé"
+942,2022/07/30,33°,18°,8km/h,0mm,53%,30%,15:11:0,30°,"Ciel dégagé, pleinement ensoleillé"
+943,2022/07/31,29°,18°,18km/h,0mm,76%,25%,15:9:0,28°,Soleil et partiellement nuageux
+944,2022/08/01,30°,19°,10km/h,0mm,78%,23%,15:6:0,28°,Soleil et partiellement nuageux
+945,2022/08/02,36°,19°,9km/h,0mm,55%,12%,15:3:0,32°,"Ciel dégagé, pleinement ensoleillé"
+946,2022/08/03,39°,20°,6km/h,0mm,65%,8%,15:1:0,36°,"Ciel dégagé, pleinement ensoleillé"
+947,2022/08/04,34°,21°,14km/h,0mm,65%,24%,14:57:0,33°,"Ciel dégagé, pleinement ensoleillé"
+948,2022/08/05,30°,17°,15km/h,1mm,76%,27%,14:54:0,28°,"Ciel dégagé, pleinement ensoleillé"
+949,2022/08/06,28°,14°,19km/h,0mm,50%,3%,14:52:0,27°,"Ciel dégagé, pleinement ensoleillé"
+950,2022/08/07,30°,14°,17km/h,0mm,59%,1%,14:48:0,28°,"Ciel dégagé, pleinement ensoleillé"
+951,2022/08/08,31°,15°,16km/h,0mm,59%,1%,14:46:0,26°,"Ciel dégagé, pleinement ensoleillé"
+952,2022/08/09,33°,17°,16km/h,0mm,65%,3%,14:43:0,31°,"Ciel dégagé, pleinement ensoleillé"
+953,2022/08/10,35°,19°,14km/h,0mm,52%,5%,14:39:0,31°,"Ciel dégagé, pleinement ensoleillé"
+954,2022/08/11,35°,21°,21km/h,0mm,34%,2%,14:36:0,34°,"Ciel dégagé, pleinement ensoleillé"
+955,2022/08/12,36°,21°,18km/h,0mm,32%,1%,14:33:0,35°,"Ciel dégagé, pleinement ensoleillé"
+956,2022/08/13,38°,21°,10km/h,0mm,32%,2%,14:30:0,35°,"Ciel dégagé, pleinement ensoleillé"
+957,2022/08/14,34°,22°,11km/h,2mm,34%,34%,14:26:0,33°,"Ciel dégagé, pleinement ensoleillé"
+958,2022/08/15,28°,19°,19km/h,0mm,72%,53%,14:23:0,21°,Nuageux
+959,2022/08/16,28°,19°,14km/h,1mm,70%,48%,14:20:0,23°,Soleil et partiellement nuageux
+960,2022/08/17,31°,18°,10km/h,1mm,79%,49%,14:17:0,25°,Foyers orageux à proximité
+961,2022/08/18,30°,18°,10km/h,1mm,77%,25%,14:14:0,28°,"Ciel dégagé, pleinement ensoleillé"
+962,2022/08/19,27°,18°,14km/h,1mm,78%,47%,14:10:0,25°,Couvert
+963,2022/08/20,26°,15°,11km/h,3mm,84%,23%,14:7:0,23°,"Ciel dégagé, pleinement ensoleillé"
+964,2022/08/21,30°,16°,3km/h,0mm,69%,11%,14:4:0,24°,"Ciel dégagé, pleinement ensoleillé"
+965,2022/08/22,27°,19°,10km/h,0mm,57%,51%,14:0:0,23°,Soleil et partiellement nuageux
+966,2022/08/23,31°,19°,4km/h,0mm,81%,33%,13:57:0,29°,Soleil et partiellement nuageux
+967,2022/08/24,37°,21°,5km/h,0mm,57%,16%,13:53:0,32°,"Ciel dégagé, pleinement ensoleillé"
+968,2022/08/25,34°,23°,13km/h,0mm,39%,25%,13:50:0,33°,"Ciel dégagé, pleinement ensoleillé"
+969,2022/08/26,28°,18°,14km/h,1mm,80%,43%,13:46:0,25°,Nuageux
+970,2022/08/27,30°,16°,12km/h,0mm,78%,9%,13:43:0,24°,"Ciel dégagé, pleinement ensoleillé"
+971,2022/08/28,31°,15°,13km/h,0mm,71%,7%,13:39:0,25°,"Ciel dégagé, pleinement ensoleillé"
+972,2022/08/29,29°,16°,17km/h,0mm,56%,12%,13:36:0,26°,"Ciel dégagé, pleinement ensoleillé"
+973,2022/08/30,31°,16°,14km/h,0mm,58%,6%,13:33:0,25°,"Ciel dégagé, pleinement ensoleillé"
+974,2022/08/31,30°,16°,6km/h,0mm,76%,13%,13:29:0,25°,"Ciel dégagé, pleinement ensoleillé"
+975,2022/09/01,29°,17°,18km/h,0mm,71%,17%,13:26:0,29°,"Ciel dégagé, pleinement ensoleillé"
