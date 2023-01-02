@@ -23,7 +23,7 @@ def plot_consumption_linecharts(df, title, xaxis_title, yaxis_title, xcolumn, yc
     fig.add_trace(go.Line(x=df[df["Catégorie profil"] == "PRO"][xcolumn], y=df[df["Catégorie profil"] == "PRO"][ycolumn]),
                 row=1, col=2)
 
-    fig.update_layout(height=500, width=1500,
+    fig.update_layout(height=500, width=900,
                     title_text=title)
 
     fig.update_xaxes(title_text=xaxis_title)
@@ -52,7 +52,7 @@ def plot_monthly_consumption_barcharts(df, title, xaxis_title, yaxis_title):
     fig.add_trace(go.Bar(x=df[df["Catégorie profil"] == "PRO"]["Month"], y=df[df["Catégorie profil"] == "PRO"]["Total énergie soutirée (MWh)"]),
                 row=1, col=2)
 
-    fig.update_layout(height=500, width=1500,
+    fig.update_layout(height=500, width=900,
                     title_text=title)
 
     fig.update_xaxes(title_text=xaxis_title)
@@ -70,15 +70,22 @@ def plot_monthly_consumption_barcharts(df, title, xaxis_title, yaxis_title):
     return fig
 
 # plot a unique chart function 
-def plot_chart(df, title, xaxis_title, yaxis_title, xcolumn, ycolumn):
-    fig = go.Figure()
-    fig.add_trace(go.Line(x=df[xcolumn], y=df[ycolumn]))
-    fig.update_layout(height=500, width=1000,
+def plot_chart(df, title, xaxis_title, yaxis_title, xcolumn, ycolumn, ycolumn2 = None, yaxis_title2 = None):
+    fig = make_subplots(specs=[[{"secondary_y": True}]])
+    fig.add_trace(go.Line(x=df[xcolumn], y=df[ycolumn], yaxis = "y1", line = {'color': 'rgb(96, 108, 56)'}), secondary_y=False)
+
+    if ycolumn2 != None:
+        # add a second y axis 
+        fig.add_trace(go.Line(x=df[xcolumn], y=df[ycolumn2], yaxis = "y2", line={'color': 'rgb(212, 163, 115)'}), secondary_y=True)    
+        fig.update_layout(yaxis2=dict(overlaying="y", side="right"))
+
+    # adapt height and width of the chart to the size of the screen
+    fig.update_layout(height=500, width=900,
                     title_text=title)
     fig.update_xaxes(title_text=xaxis_title)
-    fig.update_yaxes(title_text=yaxis_title)
-    # change color of line
-    fig.update_traces(line_color='rgb(96, 108, 56)')
+    fig.update_yaxes(title_text=yaxis_title, secondary_y=False)
+    fig.update_yaxes(title_text=yaxis_title2, secondary_y=True)
+
     # change background color
     fig.update_layout(plot_bgcolor='rgb(233, 237, 201)')
     return fig
@@ -90,7 +97,7 @@ def plot_map(df, title):
     fig = px.choropleth_mapbox(df, geojson=geojson, locations='Région', color='Total énergie soutirée (MWh)',
                             color_continuous_scale="YlGn",
                             mapbox_style="carto-positron",
-                            zoom=5, center = {"lat": 46.2276, "lon": 2.2137},
+                            zoom=3.5, center = {"lat": 46.2276, "lon": 2.2137},
                             opacity=0.8,
                             labels={'Total énergie soutirée (MWh)':'Total énergie soutirée (MWh)'}, 
                             featureidkey= "properties.nom", 
@@ -136,41 +143,33 @@ def display_meteo(df):
     'Averses de pluie et orages': '⛈️🌧',
     'Pluie forte ou modéré': '🌧'
 }
+    # display the weather of the day with an icon
+    st.subheader("Météo du jour ")
+    # display df
+    
+    # df2 = df[["day", "tempMax", "tempMin", "windSpeed", "precipitation"]]
+    # # rename all columns
+    # df2.columns = ["Date", "Température maximale", "Température minimale", "Vitesse du vent moyenne", "Précipitation"]
+    # # remove the index column
+    # df2 = df2.set_index("Date")
+    # st.write(df2)
+    # st.write("Météo à 13h :")
+    # st.metric( df["meteo_13h"].iloc[0] ,dict_emoji[df["meteo_13h"].iloc[0]])
+
+    # create 4 columns
+    col1, col2, col3, col4, col5 = st.columns(5)
+    with col1:
+        st.metric(  df["meteo_13h"].iloc[0] ,dict_emoji[df["meteo_13h"].iloc[0]])
+    with col2:
+        st.metric( "Température à 13h", df["temp_13h"].iloc[0] + "C")
+    with col3:
+        st.metric( "Température maximale", df["tempMax"].iloc[0] + "C")
+    with col4:
+        st.metric( "Température minimale", df["tempMin"].iloc[0] + "C")
+    with col5:
+        st.metric( "Vitesse du vent moyenne", df["windSpeed"].iloc[0])
 
 
-    # create a tab
-    tab1 , tab2= st.tabs(["Météo", "Prévisions"])
-    with tab1 :
-
-        # display the weather of the day with an icon
-        st.header("Météo du jour ")
-        # display df
-        
-        df2 = df[["day", "tempMax", "tempMin", "windSpeed", "precipitation"]]
-        # rename all columns
-        df2.columns = ["Date", "Température maximale", "Température minimale", "Vitesse du vent moyenne", "Précipitation"]
-        # remove the index column
-        df2 = df2.set_index("Date")
-        st.write(df2)
-        st.write("Météo à 13h :")
-        st.metric( df["meteo_13h"].iloc[0] ,dict_emoji[df["meteo_13h"].iloc[0]])
-    with tab2 :
-        st.write("test")
-    # # display the temperature of the day 
-    # st.write("Température à 13h :")
-    # st.write(df["temp_13h"].iloc[0])
-    # # max temperature
-    # st.write("Température maximale :")
-    # st.write(df["tempMax"].iloc[0])
-    # # min temperature
-    # st.write("Température minimale :")
-    # st.write(df["tempMin"].iloc[0])
-    # # display the wind speed of the day 
-    # st.write("Vitesse du vent du jour :")
-    # st.write(df["windSpeed"].iloc[0])
-    # # display the wind direction of the day 
-    # st.write("Pluie :")
-    # st.write(df["precipitation"].iloc[0])
 
 # Set page config
 st.set_page_config(page_title="Consommation d'énergie et météo", page_icon=":sunny:", layout="wide")
@@ -198,15 +197,33 @@ if option == "Consommation d'énergie totale sur 3 ans":
         df = pd.read_csv("conso-inf36-region-agg.csv")
         #df["month"] = df["date"].str[5:7]
         df = df.groupby("Date").sum().reset_index()
+        fig = plot_chart(df, "Consommation d'énergie entre 2020 et 2022", "Date", "Energie soutirée (MWh)", "Date", "Total énergie soutirée (MWh)")
+        st.plotly_chart(fig)
+
     else :
         st.markdown("### Consommation d'énergie en " + region + " entre 2020 et 2022")
         st.markdown("---")
         df = pd.read_csv("regions_datasets_agg/conso-inf36-" + region + "-agg.csv")
         df = df.groupby("Date").sum().reset_index()
-    
-    # plot chart
-    fig = plot_chart(df, "Consommation d'énergie entre 2020 et 2022", "Date", "Energie soutirée (MWh)", "Date", "Total énergie soutirée (MWh)")
-    st.plotly_chart(fig)
+        # checkbox add meteo
+        if st.checkbox("Tracer la Température"):
+            df_meteo = pd.read_csv("meteo_datasets/meteo-" + region + ".csv")
+            # change the date format to match the other dataframe in a new column
+            df_meteo["Date"] = df_meteo["day"].str[0:4] + "-" + df_meteo["day"].str[5:7] + "-" +df_meteo["day"].str[8:10] 
+            # transform the temperatureremove the °C
+            df_meteo["temp_13h"] = df_meteo["temp_13h"].str.replace("°", "")
+            # convert the column to float
+            df_meteo["temp_13h"] = df_meteo["temp_13h"].astype(float)
+            # merge the 2 dataframes with day and Date as key 
+            df = pd.merge(df, df_meteo, how="left", left_on="Date", right_on="Date")
+            st.write(df)
+            fig = plot_chart(df, "Consommation d'énergie et température entre 2020 et 2022", "Date", "Energie soutirée (MWh)", "Date", "Total énergie soutirée (MWh)", "temp_13h", "Température (°C)")
+            st.plotly_chart(fig)
+
+        else : 
+            fig = plot_chart(df, "Consommation d'énergie entre 2020 et 2022", "Date", "Energie soutirée (MWh)", "Date", "Total énergie soutirée (MWh)")
+            st.plotly_chart(fig)
+
 
 # Plot 2 : Consommation d'énergie en Ile-de-France par mois en 2020
 elif option == "Consommation d'énergie totale par an":
@@ -316,7 +333,9 @@ elif option == "Consommation d'énergie par jour par secteur":
         # filter the dataframe by region
         df = df[df["Région"] == region]
         meteo = pd.read_csv("meteo_datasets/meteo-" + region + ".csv")
-    col1, col2 = st.columns(2)
+    # create tabs
+    
+    col1, col2 = st.tabs(["Vue 1", "Vue 2"])
     with col1:
         year = st.selectbox("Choose a year", ("2022", "2021", "2020"))
         # choose a date among 4 choices : 01-15, 04-15, 07-15, 10-15
@@ -333,13 +352,13 @@ elif option == "Consommation d'énergie par jour par secteur":
         df_year_month_day_agg["Time"] = df_year_month_day_agg["Horodate"].str[11:16]
         fig = plot_consumption_linecharts(df_year_month_day_agg, "Energie soutirée par profil", "Time", "Energie soutirée (MWh)", "Horodate", "Total énergie soutirée (MWh)")
         # change the size of the plot
-        fig.update_layout(height=600, width=1000)
+        fig.update_layout(height=400, width=900)
         st.plotly_chart(fig)
         if region != "France entière":
             # extract from meteo dataset the data for the year_month_day
             date = year + "/" + month + "/" + day
             meteo_year_month_day = meteo[meteo["day"].str.contains(date)]
-            st.write(meteo_year_month_day)
+            # st.write(meteo_year_month_day)
             display_meteo(meteo_year_month_day)
     with col2:
         year2 = st.selectbox("Choose a second year", ("2022", "2021", "2020"))
@@ -360,8 +379,14 @@ elif option == "Consommation d'énergie par jour par secteur":
         df_year_month_day_agg["Time"] = df_year_month_day_agg["Horodate"].str[11:16]
         fig = plot_consumption_linecharts(df_year_month_day_agg, "Energie soutirée par profil", "Time", "Energie soutirée (MWh)", "Horodate", "Total énergie soutirée (MWh)")
         # change the size of the plot
-        fig.update_layout(height=600, width=1000)
+        fig.update_layout(height=400, width=900)
         st.plotly_chart(fig)
+        if region != "France entière":
+            # extract from meteo dataset the data for the year_month_day
+            date = year + "/" + month + "/" + day
+            meteo_year_month_day = meteo[meteo["day"].str.contains(date)]
+            # st.write(meteo_year_month_day)
+            display_meteo(meteo_year_month_day)
 
 elif option == "Cartographie de la consommation sur une journée":
     st.markdown("### Cartographie de la consommation d'énergie en France pour une journée")
@@ -386,7 +411,8 @@ elif option == "Cartographie de la consommation sur une journée":
     df_year_month_day_agg = df_year_month_day.groupby(["Catégorie profil","Région"]).agg({"Total énergie soutirée (MWh)": "sum"}).reset_index()
     fig1 = plot_map(df_year_month_day_agg[df_year_month_day_agg["Catégorie profil"] == "RES"], "Consommation par région pour les résidentiels")
     fig2 = plot_map(df_year_month_day_agg[df_year_month_day_agg["Catégorie profil"] == "PRO"], "Consommation par région pour les professionnels")
- 
+    fig1.update_layout(height=300, width=500)
+    fig2.update_layout(height=300, width=500)
     
     col1, col2 = st.columns(2)
     with col1:
