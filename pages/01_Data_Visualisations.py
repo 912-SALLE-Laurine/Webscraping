@@ -70,7 +70,7 @@ def plot_monthly_consumption_barcharts(df, title, xaxis_title, yaxis_title):
     return fig
 
 # plot a unique chart function 
-def plot_chart(df, title, xaxis_title, yaxis_title, xcolumn, ycolumn, ycolumn2 = None, yaxis_title2 = None):
+def plot_chart(df, title, xaxis_title, yaxis_title, xcolumn, ycolumn, ycolumn2 = None, yaxis_title2 = None, trace_name = None, trace_name2 = None):
     fig = make_subplots(specs=[[{"secondary_y": True}]])
     fig.add_trace(go.Line(x=df[xcolumn], y=df[ycolumn], yaxis = "y1", line = {'color': 'rgb(96, 108, 56)'}), secondary_y=False)
 
@@ -78,6 +78,9 @@ def plot_chart(df, title, xaxis_title, yaxis_title, xcolumn, ycolumn, ycolumn2 =
         # add a second y axis 
         fig.add_trace(go.Line(x=df[xcolumn], y=df[ycolumn2], yaxis = "y2", line={'color': 'rgb(212, 163, 115)'}), secondary_y=True)    
         fig.update_layout(yaxis2=dict(overlaying="y", side="right"))
+    # set traces name
+    fig.update_traces(name=trace_name)
+    fig.update_traces(name=trace_name2, secondary_y=True)
 
     # adapt height and width of the chart to the size of the screen
     fig.update_layout(height=500, width=900,
@@ -85,7 +88,11 @@ def plot_chart(df, title, xaxis_title, yaxis_title, xcolumn, ycolumn, ycolumn2 =
     fig.update_xaxes(title_text=xaxis_title)
     fig.update_yaxes(title_text=yaxis_title, secondary_y=False)
     fig.update_yaxes(title_text=yaxis_title2, secondary_y=True)
-
+    #y axis scale from 0 to max value of each subplot
+    fig.update_yaxes(range=[0, df[ycolumn].max()], secondary_y=False)
+    # same for y2 column 
+    if ycolumn2 != None:
+        fig.update_yaxes(range=[0, df[ycolumn2].max()], secondary_y=True)
     # change background color
     fig.update_layout(plot_bgcolor='rgb(233, 237, 201)')
     return fig
@@ -109,8 +116,7 @@ def plot_map(df, title):
 
 
     return fig
-
-
+    
 def display_meteo(df):
     
     dict_emoji = {
@@ -170,18 +176,18 @@ def display_meteo(df):
         st.metric( "Vitesse du vent moyenne", df["windSpeed"].iloc[0])
 
 
-
 # Set page config
-st.set_page_config(page_title="Consommation d'énergie et météo", page_icon=":sunny:", layout="wide")
+st.set_page_config(page_title="Data visualisations", page_icon =":sunny:",  layout="wide")
 st.title("Consommation d'énergie et météo")
+
 
 # Set sidebar 
 st.sidebar.header("Menu")
 
 # create sidebar menu 
-option = st.sidebar.selectbox("Choose an option", ("Consommation d'énergie totale sur 3 ans", "Consommation d'énergie totale par an", "Consommation d'énergie par an par secteur", "Consommation d'énergie par mois par secteur", "Consommation d'énergie par jour par secteur", "Cartographie de la consommation sur une journée"))
+option = st.sidebar.selectbox("Choisir une visualisation", ("Consommation d'énergie totale sur 3 ans", "Consommation d'énergie par an par secteur", "Consommation d'énergie par mois par secteur", "Consommation d'énergie par jour par secteur", "Cartographie de la consommation sur une journée"))
 # add another sidebar menu to choose the region 
-region = st.sidebar.selectbox("Choose a region", ("France entière", "Île-de-France", "Auvergne-Rhône-Alpes"))
+region = st.sidebar.selectbox("Choisir une région", ("France entière", "Île-de-France", "Auvergne-Rhône-Alpes"))
 
 month_dict = {"Janvier": "01", "Février": "02", "Mars": "03", "Avril": "04", "Mai": "05", "Juin": "06", "Juillet": "07", "Août": "08", "Septembre": "09", "Octobre": "10", "Novembre": "11", "Décembre": "12"}
 
@@ -216,41 +222,42 @@ if option == "Consommation d'énergie totale sur 3 ans":
             df_meteo["temp_13h"] = df_meteo["temp_13h"].astype(float)
             # merge the 2 dataframes with day and Date as key 
             df = pd.merge(df, df_meteo, how="left", left_on="Date", right_on="Date")
-            st.write(df)
+            #st.write(df)
             fig = plot_chart(df, "Consommation d'énergie et température entre 2020 et 2022", "Date", "Energie soutirée (MWh)", "Date", "Total énergie soutirée (MWh)", "temp_13h", "Température (°C)")
             st.plotly_chart(fig)
 
         else : 
             fig = plot_chart(df, "Consommation d'énergie entre 2020 et 2022", "Date", "Energie soutirée (MWh)", "Date", "Total énergie soutirée (MWh)")
             st.plotly_chart(fig)
+    if st.checkbox("Show dataframe"):
+        st.write(df)
 
+# # Plot 2 : Consommation d'énergie en Ile-de-France par mois en 2020
+# elif option == "Consommation d'énergie totale par an":
 
-# Plot 2 : Consommation d'énergie en Ile-de-France par mois en 2020
-elif option == "Consommation d'énergie totale par an":
-
-    # initialize dataframe empty
-    df = pd.DataFrame()
-    if region == "France entière":
-        st.markdown("###  Consommation d'énergie en France pour une année")
-        st.markdown("---")
-        df = pd.read_csv("conso-inf36-region-agg.csv")
-        df = df.groupby("Date").sum().reset_index()
-    else :
-        st.markdown("### Consommation d'énergie en " + region + " pour une année")
-        st.markdown("---")
-        df = pd.read_csv("regions_datasets_agg/conso-inf36-" + region + "-agg.csv")
-        df = df.groupby("Date").sum().reset_index()
+#     # initialize dataframe empty
+#     df = pd.DataFrame()
+#     if region == "France entière":
+#         st.markdown("###  Consommation d'énergie en France pour une année")
+#         st.markdown("---")
+#         df = pd.read_csv("conso-inf36-region-agg.csv")
+#         df = df.groupby("Date").sum().reset_index()
+#     else :
+#         st.markdown("### Consommation d'énergie en " + region + " pour une année")
+#         st.markdown("---")
+#         df = pd.read_csv("regions_datasets_agg/conso-inf36-" + region + "-agg.csv")
+#         df = df.groupby("Date").sum().reset_index()
     
-    year = st.selectbox("Choose a year", ("2022", "2021", "2020"))
+#     year = st.selectbox("Choose a year", ("2020", "2021", "2022"))
 
-    df_year = df[df["Date"].str.contains(year)]
-    # plot chart
-    fig = plot_chart(df_year, "Consommation d'énergie en " + year, "Date", "Energie soutirée (MWh)", "Date", "Total énergie soutirée (MWh)")
-    st.plotly_chart(fig)
+#     df_year = df[df["Date"].str.contains(year)]
+#     # plot chart
+#     fig = plot_chart(df_year, "Consommation d'énergie en " + year, "Date", "Energie soutirée (MWh)", "Date", "Total énergie soutirée (MWh)")
+#     st.plotly_chart(fig)
 
 
 
-# Plot 3 : Consommation d'énergie par an par secteur
+# Plot 2 : Consommation d'énergie par an par secteur
 elif option == "Consommation d'énergie par an par secteur":
 
     # initialize dataframe empty
@@ -264,7 +271,7 @@ elif option == "Consommation d'énergie par an par secteur":
         st.markdown("---")
         df = pd.read_csv("regions_datasets_agg/conso-inf36-" + region + "-agg-month.csv")
 
-    year = st.selectbox("Choose a year", ("2022", "2021", "2020"))
+    year = st.selectbox("Choose a year", ("2020", "2021", "2022"))
 
     df_year = df[df["Year"] == int(year)]
 
@@ -276,7 +283,7 @@ elif option == "Consommation d'énergie par an par secteur":
 
 
 
-# Plot 4 : Consommation d'énergie sur un mois par secteur 
+# Plot 3 : Consommation d'énergie sur un mois par secteur 
 elif option == "Consommation d'énergie par mois par secteur":
 
     # initialize dataframe empty
@@ -289,9 +296,10 @@ elif option == "Consommation d'énergie par mois par secteur":
         st.markdown("### Consommation d'énergie en " + region + " pour un mois et un secteur")
         st.markdown("---")
         df = pd.read_csv("regions_datasets_agg/conso-inf36-" + region + "-agg.csv")
+        meteo = pd.read_csv("meteo_datasets/meteo-" + region + ".csv")
 
     # choose a year 
-    year = st.selectbox("Choose a year", ("2022", "2021", "2020"))
+    year = st.selectbox("Choose a year", ("2020", "2021", "2022"))
 
     # choose a month with slider of month with month list
     month_list = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"]
@@ -318,8 +326,40 @@ elif option == "Consommation d'énergie par mois par secteur":
     fig = plot_consumption_linecharts(df_year_month, "Energie soutirée par profil", "Date", "Energie soutirée (MWh)", "Date", "Total énergie soutirée (MWh)")
     st.plotly_chart(fig)
 
+    if region != "France entière" :
+        meteo_date = year + "/" + month
+        meteo_year_month = meteo[meteo["day"].str.contains(meteo_date)]
+        # transform the temp_13h by removing "°" and transform to int 
+        meteo_year_month["temp_13h"] = meteo_year_month["temp_13h"].str.replace("°", "")
+        meteo_year_month["temp_13h"] = meteo_year_month["temp_13h"].astype(int)
+        # transfom the day column in the form yyyy-mm-dd
+        meteo_year_month["day"] = meteo_year_month["day"].str.replace("/", "-")
+        # rename day by Date
+        meteo_year_month = meteo_year_month.rename(columns={"day": "Date"})
+        df = df_year_month[df_year_month["Catégorie profil"] == "RES"]
 
-# Plot 5 : Consommation d'énergie sur un jour par secteur
+        # concatenate with df_year_month
+        df = pd.merge(df, meteo_year_month, on="Date", how="left")
+        # write the dataset 
+        
+        fig_meteo = plot_chart(df, "Température à 13h de chaque jour", "Date", "Température à 13h (°C)", "Date", "temp_13h")
+        # set figure background temperature to light beige
+        fig_meteo.update_layout(plot_bgcolor='rgb(238, 227, 190)')
+        st.plotly_chart(fig_meteo)
+        
+        # et button to show 2 lines in the same chart 
+        if st.button("Show the temperature and consumption on the same chart"):
+            fig_meteo = plot_chart(df, "Température et consommation des résidences", "Date", "Energie soutirée (MWh)", "Date", "Total énergie soutirée (MWh)", "temp_13h", "Température à 13h (°C)", "énergie", "température")
+            fig_meteo.update_layout(plot_bgcolor='rgb(238, 227, 190)')
+            st.plotly_chart(fig_meteo)
+ 
+        # checkbox to display the dataframe
+        if st.checkbox("Show dataframe"):
+            st.write(df)
+    st.success("Constat : En été, une grande différence de température au sein d'un mois a en général peu de répercussions sur la consommation électrique du secteur PRO et RES. En hiver, une différence de température significative au sein d'un mois a une répercussion importante sur la consommation, et cela est plus visible sur le secteur RES que PRO")
+
+
+# Plot 4 : Consommation d'énergie sur un jour par secteur
 elif option == "Consommation d'énergie par jour par secteur":
     df = pd.read_csv("conso-inf36-region-only-some-dates.csv", sep=",")
     # empty dataframe
@@ -337,7 +377,7 @@ elif option == "Consommation d'énergie par jour par secteur":
     
     col1, col2 = st.tabs(["Vue 1", "Vue 2"])
     with col1:
-        year = st.selectbox("Choose a year", ("2022", "2021", "2020"))
+        year = st.selectbox("Choose a year", ("2020", "2021", "2022"))
         # choose a date among 4 choices : 01-15, 04-15, 07-15, 10-15
         date = st.selectbox("Choose a date", ("15 Janvier", "15 Avril", "15 Juillet", "15 Octobre")) 
         # separate month and day
@@ -361,7 +401,7 @@ elif option == "Consommation d'énergie par jour par secteur":
             # st.write(meteo_year_month_day)
             display_meteo(meteo_year_month_day)
     with col2:
-        year2 = st.selectbox("Choose a second year", ("2022", "2021", "2020"))
+        year2 = st.selectbox("Choose a second year", ("2020", "2021", "2022"))
         # choose a date among 4 choices : 01-15, 04-15, 07-15, 10-15
         date2 = st.selectbox("Choose a second date", ("15 Avril", "15 Juillet", "15 Octobre", "15 Janvier"))
 
@@ -388,11 +428,12 @@ elif option == "Consommation d'énergie par jour par secteur":
             # st.write(meteo_year_month_day)
             display_meteo(meteo_year_month_day)
 
+# Plot 5 : Cartographie de la consommation sur une journée
 elif option == "Cartographie de la consommation sur une journée":
     st.markdown("### Cartographie de la consommation d'énergie en France pour une journée")
     st.markdown("---")
     # choose a year 
-    year = st.selectbox("Choose a year", ("2022", "2021", "2020"))
+    year = st.selectbox("Choose a year", ("2020", "2021", "2022"))
     # choose a date among 4 choices : 01-15, 04-15, 07-15, 10-15 using 
     # choose a date among 4 choices : 01-15, 04-15, 07-15, 10-15
     date = st.radio("Choose a date", ("15 Janvier", "15 Avril", "15 Juillet", "15 Octobre")) 
