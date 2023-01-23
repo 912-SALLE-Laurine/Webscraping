@@ -24,7 +24,7 @@ with col2 :
     st.markdown("- Une ligne pour chaque région, chaque interval de souscription, et chaque catégorie (PRO, RES)")
     st.success("Méthode utilisée : Test d'utilisation de l'API fournie mais limitation à 10 000 lignes de données, donc téléchargement de csv ")
     
-    st.markdown("#### 2. Données de consommation d'énergie : Données publiques d'Enedis")
+    st.markdown("#### 2. Données de météo : Historique météo")
     st.info("Lien : https://www.historique-meteo.net/france/")
     st.markdown("- Possibilité de remonter jusqu'en 2009")
     st.markdown("- Météo journalière, par région ")
