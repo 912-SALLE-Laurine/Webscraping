@@ -1,5 +1,5 @@
 # ⛅Projet webscraping : Consommation d'énergie et météo 
-Binôme : 👩🏻Laurine Sallé et 👦🏻Grégoire Caurier
+Binôme : 👩🏻Laurine Sallé & 👦🏻Grégoire Caurier
 
 Dans le cadre du cours de Webscraping & Data processing de 5ème année en spécialisation DIA à l'ESILV, nous avons travaillé sur un projet d'application utilisant des données venant de scraping de données. 
 
