@@ -1,9 +1,9 @@
-# Projet webscraping : Consommation d'énergie et météo 
-Binôme : Laurine Sallé et Grégoire Caurier
+# ⛅Projet webscraping : Consommation d'énergie et météo 
+Binôme : 👩🏻Laurine Sallé et 👦🏻Grégoire Caurier
 
 Dans le cadre du cours de Webscraping & Data processing de 5ème année en spécialisation DIA à l'ESILV, nous avons travaillé sur un projet d'application utilisant des données venant de scraping de données. 
 
-> Notre problématique est : Quel lien y a-t-il entre la consommation d'énergie et la météo ?
+> Notre problématique est : **Quel lien y a-t-il entre la consommation d'énergie et la météo ?**
 
  # Sources de données
  #### 1. Données de consommation d'énergie : Données publiques d'Enedis
