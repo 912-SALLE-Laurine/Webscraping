@@ -37,7 +37,7 @@ Dans la première visualisation (1er choix dans la sélection "Choisir une visua
 
 Des commentaires et interprétations sont directement notées dans l'application. 
 
-Extrait de l'application pour la première visualisation
+**Extrait de l'application pour la première visualisation**
 
 <img width="937" alt="image" src="https://user-images.githubusercontent.com/72121488/214043232-0fa0b8b6-4576-4047-8ce0-2c90b29cfcfd.png">
 
