@@ -27,9 +27,23 @@ Notre application a été faite sur streamlit, et voici les instructions pour la
 - l'application s'ouvre dans le localhost
 - Naviguer entre les pages Accueil et Data Visualisations
 
-	term
-: definition
+# Liverables 
+### Code 
+Notebooks : 
+- scraping_meteo.ipynb : scraping des données météo et créaction de datasets
+- traitement_dl_entier.ipynb
+- traitement_dataset_consommation.ipynb
 
-~~The world is flat.~~
+Application Streamlit : 
+- Acceuil.py : la page d'acceuil
+- Dossier pages, fichier 01_Data_Visualisations.py : page de l'application
+- Dossier .streamlit
 
-I need to highlight these ==very important words==.
+
+### Datasets
+- Dossier meteo_datasets : meteo-Auvergne-Rhône-Alpes.csv et meteo-Ile-de-France.csv : météo journalière des régions
+- Dossier regions_datasets_agg : fichiers d'aggrégation par jour et mois des données des 2 régions
+- conso-inf36-region-agg-month.csv : consommation sur la France entière aggrégée par mois 
+- conso-inf36-region-agg.csv : consommation sur la France entière aggrégée par jours 
+- conso-inf36-region-only-some-dates.csv : consommation par région et par heure seulement sur quelques jours (15 janvier, 15 avril, 15 juillet, 15 octobre)
+> Remarque : les choix de jours étant arbitraire (ils ont pour but de représenter chaque saison de l'année), l'étude pourrait être généralisée à plus de jours, voire tous les jours de l'année. Ici la contrainte était le temps de chargement des données, nous avons donc choisi de restreindre afin d'améliorer la rapidité de l'application. 
