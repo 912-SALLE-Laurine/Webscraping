@@ -39,8 +39,7 @@ Des commentaires et interprétations sont directement notées dans l'application
 ### Code 
 Notebooks : 
 - *scraping_meteo.ipynb* : scraping des données météo et créaction de datasets
-- *traitement_dl_entier.ipynb*
-- *traitement_dataset_consommation.ipynb*
+- *traitement_dataset_consommation.ipynb* : A partir de 4 datasets téléchargés depuis le site Enedis, ce notebook effectue un processing et les aggrégation nécessaire à l'obtention des datasets à utiliser pour les visualisation (voir les datasets dans la section datasets). Les datasets originaux ne sont pas sur github, car extrêmement lourds : autour de 4Go au total)
 
 Application Streamlit : 
 - *Acceuil.py* : la page d'acceuil
