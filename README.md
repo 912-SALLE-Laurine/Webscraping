@@ -5,7 +5,7 @@ Dans le cadre du cours de Webscraping & Data processing de 5ème année en spéc
 
 > Notre problématique est : **Quel lien y a-t-il entre la consommation d'énergie et la météo ?**
 
-L'objectif est de montrer à partir des données, une vue d'ensemble de la consommation électrique, et son lien avec la météo
+L'objectif est de montrer à partir des données, une vue d'ensemble de la consommation électrique en France et par région, et son lien avec la météo
 
  # Sources de données
  #### 1. Données de consommation d'énergie : Données publiques d'Enedis
