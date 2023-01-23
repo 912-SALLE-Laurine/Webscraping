@@ -220,6 +220,7 @@ if option == "Consommation d'énergie totale sur 3 ans":
         df = df.groupby("Date").sum().reset_index()
         fig = plot_chart(df, "Consommation d'énergie entre 2020 et 2022", "Date", "Energie soutirée (MWh)", "Date", "Total énergie soutirée (MWh)")
         st.plotly_chart(fig)
+        st.info("Nous constatons des cycles : forte consommation en hiver, et faible en été, avec un facteur 2 de différence.")
 
     else :
         st.markdown("### Consommation d'énergie en " + region + " entre 2020 et 2022")
@@ -241,35 +242,15 @@ if option == "Consommation d'énergie totale sur 3 ans":
             fig = plot_chart(df, "Consommation d'énergie et température entre 2020 et 2022", "Date", "Energie soutirée (MWh)", "Date", "Total énergie soutirée (MWh)", "temp_13h", "Température (°C)")
             st.plotly_chart(fig)
             corr_coef(df, "Total énergie soutirée (MWh)", "temp_13h")
+            st.info("Nous constatons une forte corrélation négative entre la température et la consommation d'énergie.")
 
         else : 
             fig = plot_chart(df, "Consommation d'énergie entre 2020 et 2022", "Date", "Energie soutirée (MWh)", "Date", "Total énergie soutirée (MWh)")
             st.plotly_chart(fig)
+            st.info("Nous constatons des cycles : forte consommation en hiver, et faible en été, avec un facteur 2 de différence.")
+
     if st.checkbox("Show dataframe"):
         st.write(df)
-
-# # Plot 2 : Consommation d'énergie en Ile-de-France par mois en 2020
-# elif option == "Consommation d'énergie totale par an":
-
-#     # initialize dataframe empty
-#     df = pd.DataFrame()
-#     if region == "France entière":
-#         st.markdown("###  Consommation d'énergie en France pour une année")
-#         st.markdown("---")
-#         df = pd.read_csv("conso-inf36-region-agg.csv")
-#         df = df.groupby("Date").sum().reset_index()
-#     else :
-#         st.markdown("### Consommation d'énergie en " + region + " pour une année")
-#         st.markdown("---")
-#         df = pd.read_csv("regions_datasets_agg/conso-inf36-" + region + "-agg.csv")
-#         df = df.groupby("Date").sum().reset_index()
-    
-#     year = st.selectbox("Choose a year", ("2020", "2021", "2022"))
-
-#     df_year = df[df["Date"].str.contains(year)]
-#     # plot chart
-#     fig = plot_chart(df_year, "Consommation d'énergie en " + year, "Date", "Energie soutirée (MWh)", "Date", "Total énergie soutirée (MWh)")
-#     st.plotly_chart(fig)
 
 
 
@@ -294,6 +275,7 @@ elif option == "Consommation d'énergie par an par secteur":
     fig = plot_monthly_consumption_barcharts(df_year, "Consommation d'énergie par secteur", "Mois", "Energie soutirée (MWh)")
     st.plotly_chart(fig)
     # checkbox to display the dataframe
+    st.info("Nous constatons comme dans la 1ère visualisation une différence entre l'hiver et l'été, un peu moins marquée pour le secteur professionnel. En regardant pour 2020, nous voyons que la différence de consommation entre mars et avril est très marquée par rapport aux autres années dans le secteur professionnel, ce qui correspond à une baisse importante de la consommation au début du 1er confinement")
     if st.checkbox("Show dataframe"):
         st.write(df)
 
@@ -362,9 +344,14 @@ elif option == "Consommation d'énergie par mois par secteur":
         # set figure background temperature to light beige
         fig_meteo.update_layout(plot_bgcolor='rgb(238, 227, 190)')
         st.plotly_chart(fig_meteo)
+
+        st.markdown("Remarques :")
+        st.markdown("- Les mois de juin 2020, 2021 comportent des pics de chaleur qui se répercutent très peu sur la consommation")
+        st.markdown("- Le mois de juin 2022 comporte un pic de chaleur qui dépasse les 35°C. Cela se répercute plus significativement sur la consommation ")
+        st.markdown("- Les mois d'hiver tels que novembre 2020, ont des fortes baisses de températur (19°C à 6°C) qui se répercutent clairement en hausse de la consommation")
         
         # et button to show 2 lines in the same chart 
-        if st.button("Show the temperature and consumption on the same chart"):
+        if st.button("Superposer les courbes de température et consommation"):
             fig_meteo = plot_chart(df, "Température et consommation des résidences", "Date", "Energie soutirée (MWh)", "Date", "Total énergie soutirée (MWh)", "temp_13h", "Température à 13h (°C)", "énergie", "température")
             fig_meteo.update_layout(plot_bgcolor='rgb(238, 227, 190)')
             st.plotly_chart(fig_meteo)
@@ -415,6 +402,8 @@ elif option == "Consommation d'énergie par jour par secteur":
         # change the size of the plot
         fig.update_layout(height=400, width=900)
         st.plotly_chart(fig)
+        st.info("Tendance secteur résidentiel: baisse de consommation la nuit, puis remontée à partir de 6h. Pic de consommation vers 13h, puis baisse et remontée en soirée (à partir de 18h)")
+        st.info("Tendance secteur professionnel: baisse de consommation la nuit, puis remontée à partir de 6h. Pic de consommation vers 12h, puis très légère baisse jusqu'à 18h, et baisse drastique en soirée")
         if region != "France entière":
             # extract from meteo dataset the data for the year_month_day
             date = year + "/" + month + "/" + day
@@ -483,6 +472,7 @@ elif option == "Cartographie de la consommation sur une journée":
     with col2:
        st.plotly_chart(fig2)
 
+    st.info("Les écarts de consommation entre les régions sont globalement constant, excepté les régions PACA, Occitanie, Nouvelle Aquitaine qui sont plus proches de l'Ile de France et la région Auvergne Rhône Alpes en été qu'en hiver. Cela peut s'expliquer par une consommation de chauffage moins élevée dans ces régions du Sud en hiver (donc différence plus grande avec l'Ile de France), et une consommation de climatisation plus élevée en été (donc augmentation, se rapprochant de l'Ile de France).")
     # checkbox to display the dataframe
     if st.checkbox("Show dataframe"):
         st.write(df_year_month_day_agg)

@@ -19,7 +19,7 @@ with col2 :
     st.markdown("#### 1. Données de consommation d'énergie : Données publiques d'Enedis")
     st.info("Lien : https://data.enedis.fr/explore/dataset/conso-inf36-region/information/")
     st.markdown("- Données de 2020 (janvier) à 2022 (septembre)")
-    st.markdown("- Pas de 1/2 ")
+    st.markdown("- Pas de 1/2h ")
     st.markdown("- Contient uniquement les souscriptions inférieures à 36 kW/h")
     st.markdown("- Une ligne pour chaque région, chaque interval de souscription, et chaque catégorie (PRO, RES)")
     st.success("Méthode utilisée : Test d'utilisation de l'API fournie mais limitation à 10 000 lignes de données, donc téléchargement de csv ")
