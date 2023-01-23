@@ -89,7 +89,10 @@ def plot_chart(df, title, xaxis_title, yaxis_title, xcolumn, ycolumn, ycolumn2 =
     fig.update_yaxes(title_text=yaxis_title, secondary_y=False)
     fig.update_yaxes(title_text=yaxis_title2, secondary_y=True)
     #y axis scale from 0 to max value of each subplot
-    fig.update_yaxes(range=[0, df[ycolumn].max()], secondary_y=False)
+    if min(df[ycolumn] > 0) : 
+        fig.update_yaxes(range=[0, df[ycolumn].max()], secondary_y=False)
+    else : 
+        fig.update_yaxes(range=[df[ycolumn].min(), df[ycolumn].max()], secondary_y=False)
     # same for y2 column 
     if ycolumn2 != None:
         fig.update_yaxes(range=[0, df[ycolumn2].max()], secondary_y=True)
@@ -175,6 +178,18 @@ def display_meteo(df):
     with col5:
         st.metric( "Vitesse du vent moyenne", df["windSpeed"].iloc[0])
 
+# calcul coefficient de corrélation fonction
+def corr_coef(df, col1, col2):
+    # get the correlation coefficient
+    corr = df[col1].corr(df[col2])
+    #arrondir r 
+    corr = round(corr, 2)
+    # get the p value
+    #p_value = stats.pearsonr(df[col1], df[col2])[1]
+    st.metric("Coefficient de corrélation", corr)
+
+    # return the correlation coefficient and the p value
+    return corr
 
 # Set page config
 st.set_page_config(page_title="Data visualisations", page_icon =":sunny:",  layout="wide")
@@ -225,6 +240,7 @@ if option == "Consommation d'énergie totale sur 3 ans":
             #st.write(df)
             fig = plot_chart(df, "Consommation d'énergie et température entre 2020 et 2022", "Date", "Energie soutirée (MWh)", "Date", "Total énergie soutirée (MWh)", "temp_13h", "Température (°C)")
             st.plotly_chart(fig)
+            corr_coef(df, "Total énergie soutirée (MWh)", "temp_13h")
 
         else : 
             fig = plot_chart(df, "Consommation d'énergie entre 2020 et 2022", "Date", "Energie soutirée (MWh)", "Date", "Total énergie soutirée (MWh)")
@@ -356,6 +372,11 @@ elif option == "Consommation d'énergie par mois par secteur":
         # checkbox to display the dataframe
         if st.checkbox("Show dataframe"):
             st.write(df)
+        
+        # correlation temperature et consommation fonction 
+        coef = corr_coef(df, "temp_13h", "Total énergie soutirée (MWh)")
+
+
     st.success("Constat : En été, une grande différence de température au sein d'un mois a en général peu de répercussions sur la consommation électrique du secteur PRO et RES. En hiver, une différence de température significative au sein d'un mois a une répercussion importante sur la consommation, et cela est plus visible sur le secteur RES que PRO")
 
 

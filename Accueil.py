@@ -32,3 +32,4 @@ with col2 :
     st.success("Méthode utilisée : Scraping web des données utiles pour chaque jour ")
 
 st.write("© 2023 - Projet réalisé par Laurine SALLE et Grégoire CAURIER (ESILV A5 - DIA1)")
+
