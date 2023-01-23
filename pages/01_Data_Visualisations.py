@@ -193,7 +193,7 @@ def corr_coef(df, col1, col2):
 
 # Set page config
 st.set_page_config(page_title="Data visualisations", page_icon =":sunny:",  layout="wide")
-st.title("Consommation d'énergie et météo")
+st.title("ClimaPower : Consommation d'énergie et météo")
 
 
 # Set sidebar 

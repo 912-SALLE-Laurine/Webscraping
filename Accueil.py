@@ -2,7 +2,7 @@ import streamlit as st
 st.set_page_config(page_title="Accueil", page_icon =":sunny:",  layout="wide")
 
 
-st.title("🌩️ Projet : Consommation d'énergie et météo")
+st.title("🌩️ Projet ClimaPower : Consommation d'énergie et météo")
 
 st.subheader("Sujet : Y a-t-il un lien entre la consommation d'énergie et la météo ? ")
 st.write("Ce projet est réalisé dans le cadre du cours de Webscraping")
