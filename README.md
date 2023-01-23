@@ -3,7 +3,7 @@ Binôme : Laurine Sallé et Grégoire Caurier
 
 Dans le cadre du cours de Webscraping & Data processing de 5ème année en spécialisation DIA à l'ESILV, nous avons travaillé sur un projet d'application utilisant des données venant de scraping de données. 
 
-Notre problématique est : Quel lien y a-t-il entre la consommation d'énergie et la météo ?
+> Notre problématique est : Quel lien y a-t-il entre la consommation d'énergie et la météo ?
 
  # Sources de données
  #### 1. Données de consommation d'énergie : Données publiques d'Enedis
@@ -22,6 +22,11 @@ Lien : https://www.historique-meteo.net/france/
 Méthode utilisée : Scraping web des données utiles pour chaque jour
 
 # Application 
-
 Notre application a été faite sur streamlit, et voici les instructions pour la lancer : 
-- 
+- exécuter dans le terminal, à l'intérieur du dossier global : 
+`streamlit run Accueil.py`
+- l'application s'ouvre dans le localhost
+- Naviguer entre les pages Accueil et Data Visualisations
+	Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
