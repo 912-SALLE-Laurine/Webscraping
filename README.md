@@ -5,6 +5,8 @@ Dans le cadre du cours de Webscraping & Data processing de 5ème année en spéc
 
 > Notre problématique est : **Quel lien y a-t-il entre la consommation d'énergie et la météo ?**
 
+L'objectif est de montrer à partir des données, une vue d'ensemble de la consommation électrique, et son lien avec la météo
+
  # Sources de données
  #### 1. Données de consommation d'énergie : Données publiques d'Enedis
 Lien : https://data.enedis.fr/explore/dataset/conso-inf36-region/information/
@@ -26,6 +28,12 @@ Notre application a été faite sur streamlit, et voici les instructions pour la
 - exécuter dans le terminal, à l'intérieur du dossier global : `streamlit run Accueil.py`
 - l'application s'ouvre dans le localhost
 - Naviguer entre les pages Accueil et Data Visualisations
+
+Nous avons orgénisé les visualisation, en un zoom temporel, chacune correspondant à une vision temporellement plus précise des données. 
+Dans la première visualisation (1er choix dans la sélection "Choisir une visualisation"), les données sont affichées sur la période de 2 ans et demi, puis sur la 2ème, les données sont affichées pour une année, puis un mois et un jour. La dernière visualisation correspond à une vue d'ensemble des régions. 
+
+Des commentaires et interprétations sont directement notées dans l'application. 
+
 
 # Livrables 
 ### Code 
