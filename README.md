@@ -14,13 +14,15 @@ Lien : https://data.enedis.fr/explore/dataset/conso-inf36-region/information/
 - Pas de une demi heure
 - Contient uniquement les souscriptions inférieures à 36 kW/h pour les entreprises (les souscriptions plus importantes se trouvent dans un autre dataset)
 - Une ligne pour chaque région, chaque interval de souscription, et chaque catégorie (PRO, RES)
-Méthode utilisée : Test d'utilisation de l'API fournie mais limitation à 10 000 lignes de données, donc téléchargement de csv 
+
+Méthode utilisée : Test d'utilisation de l'API fournie mais limitation à 10 000 lignes de données, donc téléchargement de csv pour réaliser le projet
 
 #### 2. Données de consommation d'énergie : Données publiques d'Enedis
 Lien : https://www.historique-meteo.net/france/
 - Possibilité de remonter jusqu'en 2009
 - Météo journalière, par région
 - Contient la température, l'humidité, les précipitations, l'état du ciel
+
 Méthode utilisée : Scraping web des données utiles pour chaque jour
 
 # Application 
