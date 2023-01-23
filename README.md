@@ -1,4 +1,4 @@
-# ⛅Projet webscraping : Consommation d'énergie et météo 
+# ⛅Projet webscraping ClimaPower: Consommation d'énergie et météo 
 Binôme : 👩🏻Laurine Sallé & 👦🏻Grégoire Caurier
 
 Dans le cadre du cours de Webscraping & Data processing de 5ème année en spécialisation DIA à l'ESILV, nous avons travaillé sur un projet d'application utilisant des données venant de scraping de données. 
@@ -6,6 +6,8 @@ Dans le cadre du cours de Webscraping & Data processing de 5ème année en spéc
 > Notre problématique est : **Quel lien y a-t-il entre la consommation d'énergie et la météo ?**
 
 L'objectif est de montrer à partir des données, une vue d'ensemble de la consommation électrique en France et par région, et son lien avec la météo
+
+*Note : Des modifications seulement mineures ont été apportées depuis la présentation en classe*
 
  # Sources de données
  #### 1. Données de consommation d'énergie : Données publiques d'Enedis
@@ -61,5 +63,12 @@ Application Streamlit :
 - *conso-inf36-region-agg.csv* : consommation sur la France entière aggrégée par jours 
 - *conso-inf36-region-only-some-dates.csv* : consommation par région et par heure seulement sur quelques jours (15 janvier, 15 avril, 15 juillet, 15 octobre) pour chaque année
 > Remarque : le choix des jours étant arbitraire (ils ont pour but de représenter chaque saison de l'année), l'étude pourrait être généralisée à plus de jours, voire tous les jours de l'année. Ici la contrainte était le temps de chargement des données, nous avons donc choisi de restreindre afin d'améliorer la rapidité de l'application. 
+
+# Bilan 
+Dans notre analyse, les observations que nous avons faites correspondent à nos hypothèses de départ, à savoir : 
+- Le lien entre la consommation d'énergie et la température s'observe à la fois dans le secteur résidentiel et professionel, mais est plus fort dans le secteur résidentiel
+- En hiver, les variations de température influent directement et significativement sur la consommation d'énergie dans les 2 secteurs 
+- En été, seuls les pics de chaleur forts (au dessus de 35°C) ont une influence sur la consommartion électrique : un pic de consommation est observable dans les 2 secteurs 
+- L'influence du Covid est également visible : baisse de la consommation drastique entre mars et avril 2020 dans le secteur professionel, correspondant au début du confinement
 
 Nous espérons que le projet vous plaira 😊
