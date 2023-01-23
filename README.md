@@ -27,10 +27,10 @@ Notre application a été faite sur streamlit, et voici les instructions pour la
 - l'application s'ouvre dans le localhost
 - Naviguer entre les pages Accueil et Data Visualisations
 
-# Liverables 
+# Livrables 
 ### Code 
 Notebooks : 
-- scraping_meteo.ipynb : scraping des données météo et créaction de datasets
+- *scraping_meteo.ipynb* : scraping des données météo et créaction de datasets
 - traitement_dl_entier.ipynb
 - traitement_dataset_consommation.ipynb
 
