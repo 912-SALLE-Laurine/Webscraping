@@ -23,10 +23,13 @@ Méthode utilisée : Scraping web des données utiles pour chaque jour
 
 # Application 
 Notre application a été faite sur streamlit, et voici les instructions pour la lancer : 
-- exécuter dans le terminal, à l'intérieur du dossier global : 
-`streamlit run Accueil.py`
+- exécuter dans le terminal, à l'intérieur du dossier global : `streamlit run Accueil.py`
 - l'application s'ouvre dans le localhost
 - Naviguer entre les pages Accueil et Data Visualisations
-	Here's a sentence with a footnote. [^1]
 
-[^1]: This is the footnote.
+	term
+: definition
+
+~~The world is flat.~~
+
+I need to highlight these ==very important words==.
