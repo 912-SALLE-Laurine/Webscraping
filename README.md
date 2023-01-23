@@ -17,7 +17,7 @@ Lien : https://data.enedis.fr/explore/dataset/conso-inf36-region/information/
 
 Méthode utilisée : Test d'utilisation de l'API fournie mais limitation à 10 000 lignes de données, donc téléchargement de csv pour réaliser le projet
 
-#### 2. Données de consommation d'énergie : Données publiques d'Enedis
+#### 2. Données de météo : Historique météo
 Lien : https://www.historique-meteo.net/france/
 - Possibilité de remonter jusqu'en 2009
 - Météo journalière, par région
